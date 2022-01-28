@@ -1,13 +1,19 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "News"
+    url: /news/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Project"
+    url: /project/
+  
+  - title: "Academic Performance"
+    url: /academic_performance/
 
   - title: "Talks"
     url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
     
   - title: "Portfolio"
     url: /portfolio/
