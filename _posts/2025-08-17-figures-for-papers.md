@@ -18,7 +18,7 @@ authors:
     url: "https://chengshuaizhao0.github.io/"
     affiliations:
       name: Arizona State University
-bibliography: 2018-12-22-distill.bib
+bibliography: posts.bib
 
 toc:
   - name: Introduction
