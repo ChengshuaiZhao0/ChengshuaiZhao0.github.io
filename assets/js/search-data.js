@@ -39,12 +39,23 @@ ninja.data = [{
           },
         },{id: "nav-service",
           title: "Service",
-          description: "I actively contribute to the academic community through teaching and peer review.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-how-to-make-good-figures-for-scientific-papers",
+        
+          title: "How to Make Good Figures for Scientific Papers",
+        
+        description: "A guide on tools, styles, and purposes of figures in research papers, with concrete examples and references.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/figures-for-papers/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
