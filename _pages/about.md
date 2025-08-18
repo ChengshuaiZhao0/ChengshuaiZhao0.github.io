@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "<span style='font-family: Georgia, serif; font-style: italic; font-weight: bold;'>To know is to perceive patterns in the chaos, to learn is to reveal beyond what we have seen.</span>"
+subtitle: "<q style='font-family: Georgia, serif; font-style: italic;'>To know is to perceive patterns in the chaos, to learn is to reveal beyond what we have seen.</q>"
 
 profile:
   align: right
@@ -41,7 +41,7 @@ Address: 699 S Mill Ave, Tempe, AZ 85281
 
 ---
 
-I am **Chengshuai Zhao** (he/him), a second-year Ph.D. student in Computer Science at Arizona State University (ASU). I am currently a member of the [Data Mining and Machine Learning Lab (DMML)](https://dmml.asu.edu/), advised by Prof. [Huan Liu](https://www.public.asu.edu/~huanliu/).
+I am **Chengshuai Zhao** (he/him), a second-year Ph.D. student in Computer Science at Arizona State University (ASU). I am currently a member of the [Data Mining and Machine Learning Lab (DMML)](https://dmml.asu.edu/), advised by Prof. [Huan Liu](https://search.asu.edu/profile/255975).
 
 I completed my undergraduate studies at Huazhong Agricultural University (HZAU) and the University of California, Irvine (UCI). During that time, I conducted research in the BioMedical Big Data Mining (BBDM) Lab, advised by Prof. [Wen Zhang](http://zhangwenlab.cn/indexen.html). I also worked as a research intern at the AI Research and Innovation Laboratory, Westlake University, collaborating closely with Prof. [Jun Xia](https://junxia97.github.io/) and Prof. [Stan Z. Li](https://en.westlake.edu.cn/faculty/stan-zq-li.html).
 
