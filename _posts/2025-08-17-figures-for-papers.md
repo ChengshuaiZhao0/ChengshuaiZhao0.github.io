@@ -145,9 +145,6 @@ Colors can amplify clarity — but only if used carefully.
 <div class="caption">
     Color choices inspired by top conferences <d-cite key="zhao2025cyberbot"></d-cite>
 </div>
-
----
-
 ### Learning from Conference Styles
 
 Different research communities emphasize distinct figure styles:
