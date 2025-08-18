@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://chengshuaizhao0.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chengshuaizhao0.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-18T00:33:18+00:00</updated><id>https://chengshuaizhao0.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://chengshuaizhao0.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chengshuaizhao0.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-18T01:07:12+00:00</updated><id>https://chengshuaizhao0.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">How to Make Good Figures for Scientific Papers</title><link href="https://chengshuaizhao0.github.io/blog/2025/figures-for-papers/" rel="alternate" type="text/html" title="How to Make Good Figures for Scientific Papers" /><published>2025-08-17T00:00:00+00:00</published><updated>2025-08-17T00:00:00+00:00</updated><id>https://chengshuaizhao0.github.io/blog/2025/figures-for-papers</id><content type="html" xml:base="https://chengshuaizhao0.github.io/blog/2025/figures-for-papers/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Good figures are often described as <em>the icing on the cake</em> of a research paper. They do more than just decorate — they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact:</p>
@@ -90,10 +90,10 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/drawio-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/drawio-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/drawio-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/drawio.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -126,10 +126,10 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/visio-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/visio-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/visio-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/visio.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -162,10 +162,34 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/python1-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/python1-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/python1-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/python1.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/python2-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/python2-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/python2-1400.webp 1400w," type="image/webp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/python2.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -206,10 +230,34 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="https://seaborn.pydata.org/_images/scatterplot_matrix-480.webp 480w,https://seaborn.pydata.org/_images/scatterplot_matrix-800.webp 800w,https://seaborn.pydata.org/_images/scatterplot_matrix-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="https://seaborn.pydata.org/_images/scatterplot_matrix.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/color2-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/color2-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/color2-1400.webp 1400w," type="image/webp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/color2.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -217,6 +265,85 @@
 
     </div>
 </div>
+<div class="caption">
+    Default colors used in seaborn and draw.io <d-cite key="zhao2025cyberbot"></d-cite>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/learn1.jgp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/learn1.jgp" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="col-sm mt-3 mt-md-0"&gt;
+</code></pre></div></div>
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/learn2.jgp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/learn2.jgp" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;/div&gt;
+</code></pre></div></div>
+<p>&lt;/div&gt;</p>
+<div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/learn3.jgp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/learn3.jgp" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+<p>&lt;/div&gt;</p>
 <div class="caption">
     Color choices inspired by top conferences <d-cite key="zhao2025cyberbot"></d-cite>
 </div>
@@ -246,10 +373,10 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/dm-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/dm-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/dm-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/dm.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -280,10 +407,10 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/ml-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/ml-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/ml-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/ml.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -299,6 +426,32 @@
   <li><strong>NLP Conferences</strong> → concept-driven, flow-based designs.</li>
 </ul>
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/nlp-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/nlp-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/nlp-1400.webp 1400w," type="image/webp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/nlp.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
 <div class="caption">
     Concept-driven NLP figure <d-cite key="li2025preference"></d-cite>
 </div>
@@ -328,10 +481,34 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/illustration1-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/illustration1-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/illustration1-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/illustration1.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/illustration2-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/illustration2-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/illustration2-1400.webp 1400w," type="image/webp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/illustration2.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -364,10 +541,10 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/framework-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/framework-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/framework-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/framework.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -400,10 +577,58 @@
     -->
     
       
-        <source class="responsive-img-srcset" srcset="/assets/img/-480.webp 480w,/assets/img/-800.webp 800w,/assets/img/-1400.webp 1400w," type="image/webp" sizes="95vw" />
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/result1-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/result1-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/result1-1400.webp 1400w," type="image/webp" sizes="95vw" />
       
     
-    <img src="/assets/img/.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/result1.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/result2-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/result2-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/result2-1400.webp 1400w," type="image/webp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/result2.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      
+        <source class="responsive-img-srcset" srcset="/assets/img/blog/2025-08-17-figures-for-papers/result3-480.webp 480w,/assets/img/blog/2025-08-17-figures-for-papers/result3-800.webp 800w,/assets/img/blog/2025-08-17-figures-for-papers/result3-1400.webp 1400w," type="image/webp" sizes="95vw" />
+      
+    
+    <img src="/assets/img/blog/2025-08-17-figures-for-papers/result3.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
   </picture>
 
   
@@ -629,7 +854,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="92c93195-2fbf-4cec-b0fb-a56ed224e04e" data-name="log">
+<ul id="log" class="tab" data-tab="5f51e609-448b-47ea-8a0a-9c362bc913bd" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -644,7 +869,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="92c93195-2fbf-4cec-b0fb-a56ed224e04e" data-name="log">
+<ul class="tab-content" id="5f51e609-448b-47ea-8a0a-9c362bc913bd" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -668,7 +893,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="87db641e-57ba-4838-9eb3-d6753f5a4d18" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="b02fd0b6-4a05-495a-a4f1-026838d6bff0" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -679,7 +904,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="87db641e-57ba-4838-9eb3-d6753f5a4d18" data-name="data-struct">
+<ul class="tab-content" id="b02fd0b6-4a05-495a-a4f1-026838d6bff0" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -701,7 +926,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="7767e797-cb19-4f23-ae14-f3464004b18a" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="88c27678-64df-4a36-9015-23a1737cbeb2" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -716,7 +941,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="7767e797-cb19-4f23-ae14-f3464004b18a" data-name="something-else">
+<ul class="tab-content" id="88c27678-64df-4a36-9015-23a1737cbeb2" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
