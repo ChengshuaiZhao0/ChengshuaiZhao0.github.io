@@ -5,7 +5,7 @@ description: A guide on tools, styles, and purposes of figures in research paper
 tags: figures visualization research paper
 giscus_comments: true
 date: 2025-08-17
-featured: true
+featured: false
 zoomable: true
 chart:
   chartjs: true
@@ -55,7 +55,7 @@ Different tools serve different figure-making needs. Here we compare four popula
 
 ### MS PowerPoint & Excel
 
-PowerPoint and Excel are intuitive and widely accessible. Their **GUI-based design**, built-in templates, and auto-alignment features make them great for beginners. However, they suffer from **limited graphic styles** and possible quality loss when exporting to other formats.
+MS [PowerPoint](https://powerpoint.cloud.microsoft/) and [Excel](https://excel.cloud.microsoft/) are intuitive and widely accessible. Their **GUI-based design**, built-in templates, and auto-alignment features make them great for beginners. However, they suffer from **limited graphic styles** and possible quality loss when exporting to other formats.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -74,7 +74,7 @@ PowerPoint and Excel are intuitive and widely accessible. Their **GUI-based desi
 
 ### Draw.io
 
-Draw.io shines in **online collaboration** and vector output (SVG, PDF) with auto-cropping. It is especially useful for collaborative diagramming. The trade-off is **manual styling** and limited shape libraries.
+[Draw.io](https://www.drawio.com/) shines in **online collaboration** and vector output (SVG, PDF) with auto-cropping. It is especially useful for collaborative diagramming. The trade-off is **manual styling** and limited shape libraries.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -90,7 +90,7 @@ Draw.io shines in **online collaboration** and vector output (SVG, PDF) with aut
 
 ### MS Visio
 
-Visio supports **pixel-level manipulation**, professional diagramming, and math notations with **vector output**. It is excellent for technical diagrams but requires manual styling and comes as paid software.
+MS [Visio](https://visio.cloud.microsoft/) supports **pixel-level manipulation**, professional diagramming, and math notations with **vector output**. It is excellent for technical diagrams but requires manual styling and comes as paid software.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -106,7 +106,7 @@ Visio supports **pixel-level manipulation**, professional diagramming, and math 
 
 ### Python
 
-Python libraries (e.g., Matplotlib, Seaborn) enable **automatic alignment** and high-quality vector outputs. However, editing details post-generation is more challenging.
+Python libraries (e.g., [Matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html), [Seaborn](https://seaborn.pydata.org/)) enable **automatic alignment** and high-quality vector outputs. However, editing details post-generation is more challenging.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -149,12 +149,10 @@ Colors can amplify clarity — but only if used carefully.
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn1.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn2.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="col-sm mt-3 mt-md-0">
+	<div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn3.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
