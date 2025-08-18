@@ -190,6 +190,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - backup/
   - _pages/projects.md
   - _pages/dropdown.md
   - _pages/profiles.md
