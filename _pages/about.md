@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Arizona State University</a>. Address. Contacts. Motto. Etc.
+subtitle: "<span style='font-family: Georgia, serif; font-style: italic; font-weight: bold;'>To know is to perceive patterns in the chaos, to learn is to reveal beyond what we have seen.</span>"
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Brickyard 561</p>
-    <p>699 S Mill Ave</p>
-    <p>Tempe, AZ 85281</p>
+  # more_info: >
+  #   <p>Brickyard 561</p>
+  #   <p>699 S Mill Ave</p>
+  #   <p>Tempe, AZ 85281</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,6 +27,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second year computer science Ph.D. student at ASU, currently working in the [Data Mining and Machine Leraning Lab (DMML)](https://dmml.asu.edu/) advised by Prof. [Huan Liu](https://www.public.asu.edu/~huanliu/).
+---
+
+Ph.D. Student
+
+School of Computing and Augmented Intelligence
+
+Email: czhao93[at]asu[dot]edu
+
+Office: BYENG 561
+
+Address: 699 S Mill Ave, Tempe, AZ 85281
+
+---
+
+I am **Chengshuai Zhao** (he/him), a second-year Ph.D. student in Computer Science at Arizona State University (ASU). I am currently a member of the [Data Mining and Machine Learning Lab (DMML)](https://dmml.asu.edu/), advised by Prof. [Huan Liu](https://www.public.asu.edu/~huanliu/).
+
+I completed my undergraduate studies at Huazhong Agricultural University (HZAU) and the University of California, Irvine (UCI). During that time, I conducted research in the BioMedical Big Data Mining (BBDM) Lab, advised by Prof. [Wen Zhang](http://zhangwenlab.cn/indexen.html). I also worked as a research intern at the AI Research and Innovation Laboratory, Westlake University, collaborating closely with Prof. [Jun Xia](https://junxia97.github.io/) and Prof. [Stan Z. Li](https://en.westlake.edu.cn/faculty/stan-zq-li.html).
+
+My research interests broadly span **Data Mining, AI for Science, Representation Learning, and Large Language Models**. I am passionate about developing machine learning systems that are more **generalizable, explainable, and capable in driving knowledge discovery**.
 
 <!-- Before that, I obtained a Bachelor's degree from Huazhong Agricultural University. And I had a wonderful time as an undergraduate researcher focusing on network analysis and graph representation learning in the BioMedical Big Data Mining (BBDM) Lab supervised by Prof. [Wen Zhang](http://zhangwenlab.cn/indexen.html). I am also interested in transfer learning and more topics in computer science. -->

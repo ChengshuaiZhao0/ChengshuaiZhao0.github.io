@@ -144,6 +144,7 @@ Colors can amplify clarity — but only if used carefully.
 <div class="caption">
     Default colors used in seaborn and draw.io <d-cite key="zhao2025cyberbot"></d-cite>
 </div>
+
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
