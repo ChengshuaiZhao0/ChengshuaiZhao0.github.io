@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: |
+  more_info: >
     <p>Brickyard 561</p>
     <p>699 S Mill Ave</p>
     <p>Tempe, AZ 85281</p>

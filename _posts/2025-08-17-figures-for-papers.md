@@ -135,7 +135,7 @@ Colors can amplify clarity — but only if used carefully.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="https://seaborn.pydata.org/_images/scatterplot_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/color1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/color2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -144,21 +144,21 @@ Colors can amplify clarity — but only if used carefully.
 <div class="caption">
     Default colors used in seaborn and draw.io <d-cite key="zhao2025cyberbot"></d-cite>
 </div>
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn1.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn2.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 	<div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn3.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn3.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Color choices inspired by top conferences <d-cite key="zhao2025cyberbot"></d-cite>
 </div>
+
 
 
 ---
@@ -268,7 +268,7 @@ Result-oriented figures should directly support **analysis or conclusions**. Eve
 
 ## Takeaways
 
-1. **Good figures are the icing on the cake** — they elevate the quality of your paper.  
+1. **Good figures are the icing on the cake** — they elevate the quality of your paper. 
 2. **Choose tools** that best fit your workflow and needs.  
 3. **Learn from good examples**, especially from leading conferences.  
 4. **Keep figures self-explanatory**, ensuring they clearly support your narrative.
