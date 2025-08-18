@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://chengshuaizhao0.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chengshuaizhao0.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-18T01:07:12+00:00</updated><id>https://chengshuaizhao0.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://chengshuaizhao0.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chengshuaizhao0.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-08-18T01:07:52+00:00</updated><id>https://chengshuaizhao0.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">How to Make Good Figures for Scientific Papers</title><link href="https://chengshuaizhao0.github.io/blog/2025/figures-for-papers/" rel="alternate" type="text/html" title="How to Make Good Figures for Scientific Papers" /><published>2025-08-17T00:00:00+00:00</published><updated>2025-08-17T00:00:00+00:00</updated><id>https://chengshuaizhao0.github.io/blog/2025/figures-for-papers</id><content type="html" xml:base="https://chengshuaizhao0.github.io/blog/2025/figures-for-papers/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Good figures are often described as <em>the icing on the cake</em> of a research paper. They do more than just decorate — they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact:</p>
@@ -854,7 +854,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="5f51e609-448b-47ea-8a0a-9c362bc913bd" data-name="log">
+<ul id="log" class="tab" data-tab="cc5e9550-5dc0-4dc5-b55c-23d74e8fd19f" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -869,7 +869,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="5f51e609-448b-47ea-8a0a-9c362bc913bd" data-name="log">
+<ul class="tab-content" id="cc5e9550-5dc0-4dc5-b55c-23d74e8fd19f" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -893,7 +893,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="b02fd0b6-4a05-495a-a4f1-026838d6bff0" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="ae3d0ac8-035f-4ae8-92cc-41071a7b460b" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -904,7 +904,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="b02fd0b6-4a05-495a-a4f1-026838d6bff0" data-name="data-struct">
+<ul class="tab-content" id="ae3d0ac8-035f-4ae8-92cc-41071a7b460b" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -926,7 +926,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="88c27678-64df-4a36-9015-23a1737cbeb2" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="81c7e3d2-2c64-4a2b-8ab0-2bd8c97ab563" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -941,7 +941,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="88c27678-64df-4a36-9015-23a1737cbeb2" data-name="something-else">
+<ul class="tab-content" id="81c7e3d2-2c64-4a2b-8ab0-2bd8c97ab563" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
