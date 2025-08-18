@@ -68,8 +68,6 @@ MS [PowerPoint](https://powerpoint.cloud.microsoft/) and [Excel](https://excel.c
 <div class="caption">
     Example created using MS PowerPoint & Excel <d-cite key="ting2025beyond"></d-cite>
 </div>
----
-
 ### Draw.io
 
 [Draw.io](https://www.drawio.com/) shines in **online collaboration** and vector output (SVG, PDF) with auto-cropping. It is especially useful for collaborative diagramming. The trade-off is **manual styling** and limited shape libraries.
@@ -82,8 +80,6 @@ MS [PowerPoint](https://powerpoint.cloud.microsoft/) and [Excel](https://excel.c
 <div class="caption">
     Illustration made with Draw.io <d-cite key="zhao2025chain"></d-cite>
 </div>
----
-
 ### MS Visio
 
 MS [Visio](https://visio.cloud.microsoft/) supports **pixel-level manipulation**, professional diagramming, and math notations with **vector output**. It is excellent for technical diagrams but requires manual styling and comes as paid software.
@@ -96,8 +92,6 @@ MS [Visio](https://visio.cloud.microsoft/) supports **pixel-level manipulation**
 <div class="caption">
     Technical diagram in MS Visio <d-cite key="zhao2021csgnn"></d-cite>
 </div>
----
-
 ### Python
 
 Python libraries (e.g., [Matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html), [Seaborn](https://seaborn.pydata.org/)) enable **automatic alignment** and high-quality vector outputs. However, editing details post-generation is more challenging.
@@ -209,8 +203,6 @@ A **teaser figure** should succinctly state the problem and present it simply. A
 <div class="caption">
     Example teaser figure <d-cite key="tan2024wolf"></d-cite>
 </div>
----
-
 ### Framework Figures
 
 Framework figures should be **self-explanatory** and highlight **novel contributions**. They serve as a visual “blueprint” of your approach.
@@ -223,8 +215,6 @@ Framework figures should be **self-explanatory** and highlight **novel contribut
 <div class="caption">
     Framework illustration <d-cite key="tan2024glue"></d-cite>
 </div>
----
-
 ### Results Figures
 
 Result-oriented figures should directly support **analysis or conclusions**. Every curve, bar, or scatter point must reinforce your argument.
