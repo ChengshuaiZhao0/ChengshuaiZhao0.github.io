@@ -78,12 +78,13 @@ Draw.io shines in **online collaboration** and vector output (SVG, PDF) with aut
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/drawio.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Illustration made with Draw.io <d-cite key="zhao2025chain"></d-cite>
 </div>
+
 
 ---
 
@@ -93,12 +94,13 @@ Visio supports **pixel-level manipulation**, professional diagramming, and math 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/visio.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Technical diagram in MS Visio <d-cite key="zhao2021csgnn"></d-cite>
 </div>
+
 
 ---
 
@@ -108,12 +110,16 @@ Python libraries (e.g., Matplotlib, Seaborn) enable **automatic alignment** and 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/python1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/python2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Data visualization with Python libraries <d-cite key="zhao2021csgnn"></d-cite>
 </div>
+
 
 ---
 
@@ -129,12 +135,33 @@ Colors can amplify clarity — but only if used carefully.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="https://seaborn.pydata.org/_images/scatterplot_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/color2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Default colors used in seaborn and draw.io <d-cite key="zhao2025cyberbot"></d-cite>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn1.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn2.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn3.jgp" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Color choices inspired by top conferences <d-cite key="zhao2025cyberbot"></d-cite>
 </div>
+
 
 ---
 
@@ -146,29 +173,37 @@ Different research communities emphasize distinct figure styles:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/dm.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Data mining style visualization <d-cite key='tan2022graph'></d-cite>
 </div>
 
+
 - **Machine Learning Conferences** → abstract and minimal visuals.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/ml.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Minimalist ML figure style <d-cite key='xia2023mole'></d-cite>
 </div>
 
+
 - **NLP Conferences** → concept-driven, flow-based designs.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/nlp.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 <div class="caption">
     Concept-driven NLP figure <d-cite key='li2025preference'></d-cite>
 </div>
+
 
 ---
 
@@ -182,12 +217,16 @@ A **teaser figure** should succinctly state the problem and present it simply. A
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/illustration1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/illustration2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Example teaser figure <d-cite key="tan2024wolf"></d-cite>
 </div>
+
 
 ---
 
@@ -197,12 +236,13 @@ Framework figures should be **self-explanatory** and highlight **novel contribut
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/framework.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Framework illustration <d-cite key="tan2024glue"></d-cite>
 </div>
+
 
 ---
 
@@ -212,12 +252,19 @@ Result-oriented figures should directly support **analysis or conclusions**. Eve
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/result1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/result2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/result3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
     Result comparison figure <d-cite key="zhao2025chain"></d-cite>
 </div>
+
 
 ---
 
