@@ -40,7 +40,7 @@ Ph.D. Student
 
 School of Computing and Augmented Intelligence
 
-Email: czhao93[at]asu[dot]edu
+Email: czhao93 [at] asu [dot] edu
 
 Office: BYENG 561
 
