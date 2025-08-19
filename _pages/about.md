@@ -29,15 +29,13 @@ latest_posts:
 
 ---
 
-Ph.D. Student
-
-School of Computing and Augmented Intelligence
-
-Email: czhao93[at]asu[dot]edu
-
-Office: BYENG 561
-
-Address: 699 S Mill Ave, Tempe, AZ 85281
+<div style="font-family: 'Open Sans', monospace, bold;">
+  Ph.D. Student<br>
+  School of Computing and Augmented Intelligence<br>
+  Email: czhao93 [at] asu [dot] edu<br>
+  Office: BYENG 561CA<br>
+  Address: 699 S Mill Ave, Tempe, AZ 85281
+</div>
 
 ---
 
@@ -45,6 +43,7 @@ I am Chengshuai Zhao (he/him), a second-year Ph.D. student in Computer Science a
 
 I completed my undergraduate studies at Huazhong Agricultural University (HZAU) and the University of California, Irvine (UCI). During that time, I conducted research in the BioMedical Big Data Mining Lab, advised by Prof. [Wen Zhang](http://zhangwenlab.cn/indexen.html). I also worked as a research intern in the AI Research and Innovation Laboratory at Westlake University, collaborating closely with Prof. [Jun Xia](https://junxia97.github.io/) and Prof. [Stan Z. Li](https://en.westlake.edu.cn/faculty/stan-zq-li.html).
 
-My research interests broadly span Data Mining, AI for Science, Representation Learning, and Large Language Models. I am passionate about developing machine learning systems that are more generalizable, explainable, and capable in driving knowledge discovery.
+At the core of my research lies a fascination with the interplay between observation and understanding: how learning enables us to see beyond the apparent and uncover truths that reshape our perspective. My work spans Data Mining, AI for Science, Representation Learning, and Large Language Models, through which I aim to develop systems that are more generalizable,  transparent, and capable of revealing knowledge at the frontier of human perception.
 
 ---
+
