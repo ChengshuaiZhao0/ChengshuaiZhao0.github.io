@@ -29,13 +29,19 @@ latest_posts:
 
 ---
 
-<div style="font-family: 'Open Sans', monospace, bold;">
+<!-- <div style="font-family: 'Arial', monospace, bold;">
   Ph.D. Student<br>
   School of Computing and Augmented Intelligence<br>
   Email: czhao93 [at] asu [dot] edu<br>
   Office: BYENG 561CA<br>
   Address: 699 S Mill Ave, Tempe, AZ 85281
-</div>
+</div> -->
+Ph.D. Student
+School of Computing and Augmented Intelligence
+Email: czhao93 [at] asu [dot] edu
+Office: BYENG 561CA
+Address: 699 S Mill Ave, Tempe, AZ 85281
+
 
 ---
 
