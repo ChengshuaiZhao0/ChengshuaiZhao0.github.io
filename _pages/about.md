@@ -37,9 +37,13 @@ latest_posts:
   Address: 699 S Mill Ave, Tempe, AZ 85281
 </div> -->
 Ph.D. Student
+
 School of Computing and Augmented Intelligence
-Email: czhao93 [at] asu [dot] edu
-Office: BYENG 561CA
+
+Email: czhao93[at]asu[dot]edu
+
+Office: BYENG 561
+
 Address: 699 S Mill Ave, Tempe, AZ 85281
 
 
