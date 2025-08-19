@@ -115,6 +115,13 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%63%7A%68%61%6F%39%33 [%61%74] %61%73%75 [%64%6F%74] %65%64%75", "_blank");
+        },
+      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -141,13 +148,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/ChengshuaiZhao", "_blank");
-        },
-      },{
-        id: 'social-youtube',
-        title: 'YouTube',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://youtube.com/@ChengshuaiZhao0", "_blank");
         },
       },{
       id: 'light-theme',
