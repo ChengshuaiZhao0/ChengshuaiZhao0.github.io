@@ -38,12 +38,11 @@ toc:
       - name: Framework Figures
       - name: Results Figures
   - name: Takeaways
-
 ---
 
 ## Introduction
 
-Good figures are often described as *the icing on the cake* of a research paper. They do more than just decorate---they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact.
+Good figures are often described as _the icing on the cake_ of a research paper. They do more than just decorate---they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact.
 
 Too often, researchers treat figures as an afterthought---something to quickly put together at the end. But if crafted thoughtfully, figures can serve as the **fastest entry point** into your work, catching the attention of reviewers and readers who might otherwise skim. A clean framework diagram or a clear result plot often communicates more than paragraphs of text.
 
@@ -102,7 +101,6 @@ The downside is that it requires manual styling and comes as paid software, whic
     Scientific diagram in MS Visio <d-cite key="zhao2021csgnn"></d-cite>
 </div>
 
-
 ### Python
 
 Python libraries (e.g., [Matplotlib](https://matplotlib.org/stable/tutorials/pyplot.html), [Seaborn](https://seaborn.pydata.org/)) enable **automatic alignment** and high-quality vector outputs. They shine for **data visualizations**, where reproducibility and precision matter most.
@@ -132,7 +130,7 @@ Colors can amplify clarity---but only if used carefully.
 
 - Leverage **default palettes** from tools like Seaborn or Draw.io, which are carefully tuned for readability.
 - Avoid cluttering a single figure with too many colors, which confuses interpretation.
-- Study effective visual styles from top venues like *Nature* and premier conferences, where color is often used sparingly but powerfully.
+- Study effective visual styles from top venues like _Nature_ and premier conferences, where color is often used sparingly but powerfully.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -200,7 +198,7 @@ By studying figures from recent accepted papers, you can adapt your own style to
 
 ## Purpose-Driven Figures
 
-Every figure in a paper should have a **purpose**. Ask yourself: *Why does this figure exist? What should the reader take away from it?* With this in mind, we can categorize figures into three common roles:
+Every figure in a paper should have a **purpose**. Ask yourself: _Why does this figure exist? What should the reader take away from it?_ With this in mind, we can categorize figures into three common roles:
 
 ### Illustration / Teaser Figures
 
@@ -258,9 +256,9 @@ This means avoiding “decorative” plots that don’t add new insight. Instead
 
 ## Takeaways
 
-1. **Good figures are the icing on the cake**---they elevate the quality of your paper. 
-2. **Choose tools** that best fit your workflow and needs.  
-3. **Learn from good examples**, especially from leading conferences.  
+1. **Good figures are the icing on the cake**---they elevate the quality of your paper.
+2. **Choose tools** that best fit your workflow and needs.
+3. **Learn from good examples**, especially from leading conferences.
 4. **Keep figures self-explanatory**, ensuring they clearly support your narrative.
 
 ---

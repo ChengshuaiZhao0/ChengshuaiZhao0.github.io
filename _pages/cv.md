@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 2
 cv_pdf: Chengshuai_Zhao_CV.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Tracing the path of experiences, weaving skills into stories of growth.
 toc:
   sidebar: left
 ---
