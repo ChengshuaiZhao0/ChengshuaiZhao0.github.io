@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Service
-description: I actively contribute to the academic community through teaching, mentoring, and peer review. These activities allow me to share knowledge, support the growth of students and colleagues, and help maintain the high standards of research in my field.
+# description: I actively contribute to the academic community through teaching, mentoring, and peer review. These activities allow me to share knowledge, support the growth of students and colleagues, and help maintain the high standards of research in my field.
 nav: true
 nav_order: 6
 ---
