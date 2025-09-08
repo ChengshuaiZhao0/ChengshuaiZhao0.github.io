@@ -88,7 +88,7 @@ The trade-off is **manual styling** and limited shape libraries, meaning you may
 </div>
 ### MS Visio
 
-MS [Visio](https://visio.cloud.microsoft/) supports **pixel-level manipulation**, professional diagramming, and **math notations** with vector output. It is excellent for technical diagrams where precision is critical, such as network architectures or algorithm pipelines.
+[MS Visio](https://visio.cloud.microsoft/) supports **pixel-level manipulation**, professional diagramming, and **math notations** with vector output. It is excellent for technical diagrams where precision is critical, such as network architectures or algorithm pipelines.
 
 The downside is that it requires manual styling and comes as paid software, which may limit its adoption in academia. Nonetheless, for users who demand fine-grained control, Visio offers unmatched power.
 
