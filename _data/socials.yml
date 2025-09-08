@@ -10,7 +10,6 @@
 email: czhao93 [at] asu [dot] edu # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
-github_username: ChengshuaiZhao0 # your GitHub user name
 # gitlab_username: # your GitLab user name
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
@@ -30,8 +29,8 @@ linkedin_username: chengshuai-z # your LinkedIn user name
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: xZQHi0EAAAAJ # your Google Scholar ID
+github_username: ChengshuaiZhao0 # your GitHub user name
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: 2038670428 # your Semantic Scholar ID
 # spotify_id: # your spotify id
@@ -45,6 +44,7 @@ scholar_userid: xZQHi0EAAAAJ # your Google Scholar ID
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
 x_username: ChengshuaiZhao # your X handle
+rss_icon: true # comment this line to hide the RSS icon
 youtube_id: ChengshuaiZhao0 # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above

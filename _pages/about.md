@@ -43,7 +43,7 @@ School of Computing and Augmented Intelligence
 
 Email: czhao93 [at] asu [dot] edu
 
-Office: BYENG 561
+Office: BYENG 561CA
 
 Address: 699 S Mill Ave, Tempe, AZ 85281
 
