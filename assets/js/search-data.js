@@ -136,6 +136,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/chengshuai-z", "_blank");
         },
       },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
@@ -148,6 +155,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/ChengshuaiZhao", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@ChengshuaiZhao0", "_blank");
         },
       },{
       id: 'light-theme',
