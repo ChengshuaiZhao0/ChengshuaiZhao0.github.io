@@ -40,7 +40,7 @@ table.table a {
   color: var(--global-hover-color);
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -519,7 +519,7 @@ footer.sticky-bottom {
 
       .badge {
         color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        background-color: var(--global-hover-color) !important;
       }
     }
   }
