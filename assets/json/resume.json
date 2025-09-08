@@ -198,37 +198,37 @@
     {
       "name": "Research",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-hashtag",
       "keywords": ["Data Mining", "Machine Learning", "Natural Language Processing", "AI for Science"]
     },
     {
       "name": "Programming Languages",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-code",
       "keywords": ["C", "C++", "Java", "Python", "R", "Go", "Scala", "SQL", "Verilog HDL"]
     },
     {
       "name": "Operating Systems",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-desktop",
       "keywords": ["Microsoft Windows", "CentOS", "Ubuntu"]
     },
     {
       "name": "Databases",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-database",
       "keywords": ["Oracle", "MySQL", "SQLite", "MongoDB"]
     },
     {
       "name": "Frameworks",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-cogs",
       "keywords": ["Scikit-learn", "Keras", "TensorFlow", "PyTorch", "Hadoop", "Spark"]
     },
     {
       "name": "Tools",
       "level": "",
-      "icon": "",
+      "icon": "fa-solid fa-tools",
       "keywords": ["Git", "Docker"]
     }
   ],

@@ -30,7 +30,7 @@ linkedin_username: chengshuai-z # your LinkedIn user name
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-# rss_icon: true # comment this line to hide the RSS icon
+rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: xZQHi0EAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: 2038670428 # your Semantic Scholar ID
@@ -45,7 +45,7 @@ scholar_userid: xZQHi0EAAAAJ # your Google Scholar ID
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
 x_username: ChengshuaiZhao # your X handle
-# youtube_id: ChengshuaiZhao0 # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: ChengshuaiZhao0 # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
