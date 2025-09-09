@@ -48,8 +48,6 @@ Too often, researchers treat figures as an afterthought---something to quickly p
 
 This article provides practical guidance on **tools**, **styles**, and **purposes** for creating strong figures, enriched with lessons learned from top conferences and recent publications.
 
----
-
 ## Choosing the Right Tool
 
 Selecting the right tool is the first step in figure-making. There isn’t a single "best" choice---the ideal tool depends on what kind of figure you’re making and how much control you need over design. Below, we compare four popular options that researchers frequently rely on.
@@ -119,8 +117,6 @@ However, editing details post-generation is more challenging. Small tweaks often
 <div class="caption">
     Data visualization with Python libraries <d-cite key="zhao2021csgnn"></d-cite>
 </div>
-
----
 
 ## Style and Design
 
@@ -196,8 +192,6 @@ Different research communities emphasize distinct figure styles:
 </div>
 By studying figures from recent accepted papers, you can adapt your own style to resonate with the target community.
 
----
-
 ## Purpose-Driven Figures
 
 Every figure in a paper should have a **purpose**. Ask yourself: _Why does this figure exist? What should the reader take away from it?_ With this in mind, we can categorize figures into three common roles:
@@ -256,13 +250,9 @@ This means avoiding “decorative” plots that don’t add new insight. Instead
     Result comparison figures <d-cite key="zhao2025chain"></d-cite>
 </div>
 
----
-
 ## Takeaways
 
 1. **Good figures are the icing on the cake**---they elevate the quality of your paper.
 2. **Choose tools** that best fit your workflow and needs.
 3. **Learn from good examples**, especially from leading conferences.
 4. **Keep figures self-explanatory**, ensuring they clearly support your narrative.
-
----
