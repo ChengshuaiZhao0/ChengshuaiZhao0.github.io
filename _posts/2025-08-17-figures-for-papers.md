@@ -56,7 +56,7 @@ Selecting the right tool is the first step in figure-making. There isn’t a sin
 
 ### MS PowerPoint & Excel
 
-MS [PowerPoint](https://powerpoint.cloud.microsoft/) and [Excel](https://excel.cloud.microsoft/) are intuitive and widely accessible. Their **GUI-based design**, built-in templates, and auto-alignment features make them great for beginners. These tools lower the entry barrier for quickly producing bar charts, flow diagrams, or teaser figures.
+[MS PowerPoint](https://powerpoint.cloud.microsoft/) and [Excel](https://excel.cloud.microsoft/) are intuitive and widely accessible. Their **GUI-based design**, built-in templates, and auto-alignment features make them great for beginners. These tools lower the entry barrier for quickly producing bar charts, flow diagrams, or teaser figures.
 
 However, they suffer from **limited graphic styles** and possible quality loss when exporting to other formats. Figures may look polished on-screen but risk pixelation when included in LaTeX papers.
 
@@ -86,6 +86,7 @@ The trade-off is **manual styling** and limited shape libraries, meaning you may
 <div class="caption">
     Illustration made with Draw.io <d-cite key="zhao2025chain"></d-cite>
 </div>
+
 ### MS Visio
 
 [MS Visio](https://visio.cloud.microsoft/) supports **pixel-level manipulation**, professional diagramming, and **math notations** with vector output. It is excellent for technical diagrams where precision is critical, such as network architectures or algorithm pipelines.
@@ -118,6 +119,7 @@ However, editing details post-generation is more challenging. Small tweaks often
 <div class="caption">
     Data visualization with Python libraries <d-cite key="zhao2021csgnn"></d-cite>
 </div>
+
 ---
 
 ## Style and Design
@@ -150,7 +152,7 @@ Colors can amplify clarity---but only if used carefully.
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-	<div class="col-sm mt-3 mt-md-0">
+ <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/blog/2025-08-17-figures-for-papers/learn3.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
@@ -232,6 +234,7 @@ They serve as a visual “blueprint” of your approach, providing a clear menta
 <div class="caption">
     Framework illustration <d-cite key="tan2024glue"></d-cite>
 </div>
+
 ### Results Figures
 
 Result-oriented figures should directly support **analysis or conclusions**. Every curve, bar, or scatter point must reinforce your argument.
@@ -252,6 +255,7 @@ This means avoiding “decorative” plots that don’t add new insight. Instead
 <div class="caption">
     Result comparison figures <d-cite key="zhao2025chain"></d-cite>
 </div>
+
 ---
 
 ## Takeaways
