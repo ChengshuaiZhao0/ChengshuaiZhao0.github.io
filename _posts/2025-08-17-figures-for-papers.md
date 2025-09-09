@@ -24,8 +24,8 @@ toc:
   - name: Introduction
   - name: Choosing the Right Tool
     subsections:
-      - name: MS PowerPoint & Excel
-      - name: Draw.io
+      - name: MS PowerPoint and Excel
+      - name: Drawio
       - name: MS Visio
       - name: Python
   - name: Style and Design
@@ -34,7 +34,7 @@ toc:
       - name: Learning from Conference Styles
   - name: Purpose-Driven Figures
     subsections:
-      - name: Illustration / Teaser Figures
+      - name: Illustration or Teaser Figures
       - name: Framework Figures
       - name: Results Figures
   - name: Takeaways
@@ -42,7 +42,7 @@ toc:
 
 ## Introduction
 
-Good figures are often described as _the icing on the cake_ of a research paper. They do more than just decorate---they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact.
+Good figures are often described as *the icing on the cake* of a research paper. They do more than just decorate---they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact.
 
 Too often, researchers treat figures as an afterthought---something to quickly put together at the end. But if crafted thoughtfully, figures can serve as the **fastest entry point** into your work, catching the attention of reviewers and readers who might otherwise skim. A clean framework diagram or a clear result plot often communicates more than paragraphs of text.
 
@@ -52,7 +52,7 @@ This article provides practical guidance on **tools**, **styles**, and **purpose
 
 Selecting the right tool is the first step in figure-making. There isn’t a single "best" choice---the ideal tool depends on what kind of figure you’re making and how much control you need over design. Below, we compare four popular options that researchers frequently rely on.
 
-### MS PowerPoint & Excel
+### MS PowerPoint and Excel
 
 [MS PowerPoint](https://powerpoint.cloud.microsoft/) and [Excel](https://excel.cloud.microsoft/) are intuitive and widely accessible. Their **GUI-based design**, built-in templates, and auto-alignment features make them great for beginners. These tools lower the entry barrier for quickly producing bar charts, flow diagrams, or teaser figures.
 
@@ -70,7 +70,7 @@ However, they suffer from **limited graphic styles** and possible quality loss w
     Examples created using MS PowerPoint & Excel <d-cite key="ting2025beyond"></d-cite>
 </div>
 
-### Draw.io
+### Drawio
 
 [Draw.io](https://www.drawio.com/) shines in **online collaboration** and vector output (SVG, PDF) with auto-cropping. It is especially useful for collaborative diagramming, where multiple authors can refine a figure together without versioning headaches.
 
@@ -128,7 +128,7 @@ Colors can amplify clarity---but only if used carefully.
 
 - Leverage **default palettes** from tools like Seaborn or Draw.io, which are carefully tuned for readability.
 - Avoid cluttering a single figure with too many colors, which confuses interpretation.
-- Study effective visual styles from top venues like _Nature_ and premier conferences, where color is often used sparingly but powerfully.
+- Study effective visual styles from top venues like *Nature* and premier conferences, where color is often used sparingly but powerfully.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -194,9 +194,9 @@ By studying figures from recent accepted papers, you can adapt your own style to
 
 ## Purpose-Driven Figures
 
-Every figure in a paper should have a **purpose**. Ask yourself: _Why does this figure exist? What should the reader take away from it?_ With this in mind, we can categorize figures into three common roles:
+Every figure in a paper should have a **purpose**. Ask yourself: *Why does this figure exist? What should the reader take away from it?* With this in mind, we can categorize figures into three common roles:
 
-### Illustration / Teaser Figures
+### Illustration or Teaser Figures
 
 A **teaser figure** should succinctly state the problem and present it simply. Think of it as the “elevator pitch” of your paper---eye-catching, easy to interpret, and directly tied to your research motivation.
 
