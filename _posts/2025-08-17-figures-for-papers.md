@@ -42,7 +42,7 @@ toc:
 
 ## Introduction
 
-Good figures are often described as *the icing on the cake* of a research paper. They do more than just decorate---they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact.
+Good figures are often described as _the icing on the cake_ of a research paper. They do more than just decorate---they illustrate, persuade, and clarify. Well-designed visuals can transform a dense idea into an accessible insight, guiding readers through your contributions with clarity and impact.
 
 Too often, researchers treat figures as an afterthought---something to quickly put together at the end. But if crafted thoughtfully, figures can serve as the **fastest entry point** into your work, catching the attention of reviewers and readers who might otherwise skim. A clean framework diagram or a clear result plot often communicates more than paragraphs of text.
 
@@ -128,7 +128,7 @@ Colors can amplify clarity---but only if used carefully.
 
 - Leverage **default palettes** from tools like Seaborn or Draw.io, which are carefully tuned for readability.
 - Avoid cluttering a single figure with too many colors, which confuses interpretation.
-- Study effective visual styles from top venues like *Nature* and premier conferences, where color is often used sparingly but powerfully.
+- Study effective visual styles from top venues like _Nature_ and premier conferences, where color is often used sparingly but powerfully.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -194,7 +194,7 @@ By studying figures from recent accepted papers, you can adapt your own style to
 
 ## Purpose-Driven Figures
 
-Every figure in a paper should have a **purpose**. Ask yourself: *Why does this figure exist? What should the reader take away from it?* With this in mind, we can categorize figures into three common roles:
+Every figure in a paper should have a **purpose**. Ask yourself: _Why does this figure exist? What should the reader take away from it?_ With this in mind, we can categorize figures into three common roles:
 
 ### Illustration or Teaser Figures
 

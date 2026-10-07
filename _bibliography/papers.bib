@@ -121,8 +121,7 @@
   preview={LIAR.png},
   bibtex_show={true},
   abstract={Retrieval-Augmented Generative (RAG) models enhance Large Language Models (LLMs) by integrating external knowledge bases, improving their performance in applications like fact-checking and information searching. In this paper, we demonstrate a security threat where adversaries can exploit the openness of these knowledge bases by injecting deceptive content into the retrieval database, intentionally changing the model’s behavior. This threat is critical as it mirrors real-world usage scenarios where RAG systems interact with publicly accessible knowledge bases, such as web scrapings and user-contributed data pools. To be more realistic, we target a realistic setting where the adversary has no knowledge of users’ queries, knowledge base data, and the LLM parameters. We demonstrate that it is possible to exploit the model successfully through crafted content uploads with access to the retriever. Our findings emphasize an urgent need for security measures in the design and deployment of RAG systems to prevent potential manipulation and ensure the integrity of machine-generated content.},
-  pdf={https://aclanthology.org/2024.emnlp-main.96.pdf},
-  arxiv={2406.19417}
+  pdf={https://aclanthology.org/2024.emnlp-main.96.pdf}
 }
 
 @inproceedings{li2025generation,
@@ -137,7 +136,6 @@
   bibtex_show={true},
   abstract={Assessment and evaluation have long been critical challenges in artificial intelligence (AI) and natural language processing (NLP). However, traditional methods, whether matching-based or embedding-based, often fall short of judging subtle attributes and delivering satisfactory results. Recent advancements in Large Language Models (LLMs) inspire the "LLM-as-a-judge" paradigm, where LLMs are leveraged to perform scoring, ranking, or selection across various tasks and applications. This paper provides a comprehensive survey of LLM-based judgment and assessment, offering an in-depth overview to advance this emerging field. We begin by giving detailed definitions from both input and output perspectives. Then we introduce a comprehensive taxonomy to explore LLM-as-a-judge from three dimensions: what to judge, how to judge and where to judge. Finally, we compile benchmarks for evaluating LLM-as-a-judge and highlight key challenges and promising directions, aiming to provide valuable insights and inspire future research in this promising research area.},
   pdf={https://aclanthology.org/2025.emnlp-main.138.pdf},
-  arxiv={2411.16594},
   code={https://github.com/llm-as-a-judge/Awesome-LLM-as-a-judge}
 }
 
@@ -151,7 +149,7 @@
   bibtex_show={true},
   abstract={Integrating AI into education has the potential to transform the teaching of science and technology courses, particularly in the field of cybersecurity. AI-driven question-answering (QA) systems can actively manage uncertainty in cybersecurity problem-solving, offering interactive, inquiry-based learning experiences. Large language models (LLMs) have gained prominence in AI-driven QA systems, offering advanced language understanding and user engagement. However, they face challenges like hallucinations and limited domain-specific knowledge, which reduce their reliability in educational settings. To address these challenges, we propose CyberRAG, an ontology-aware retrieval-augmented generation (RAG) approach for developing a reliable and safe QA system in cybersecurity education. CyberRAG employs a two-step approach: first, it augments the domain-specific knowledge by retrieving validated cybersecurity documents from a knowledge base to enhance the relevance and accuracy of the response. Second, it mitigates hallucinations and misuse by integrating a knowledge graph ontology to validate the final answer. Experiments on publicly available cybersecurity datasets show that CyberRAG delivers accurate, reliable responses aligned with domain knowledge, demonstrating the potential of AI tools to enhance education.},
   pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11401740},
-  arxiv={2412.14191},
+  video={https://youtu.be/X0xjJ9lpTYg}
 }
 
 @inproceedings{zhao2025scale,
@@ -167,7 +165,6 @@
   bibtex_show={true},
   abstract={Content analysis breaks down complex and unstructured texts into theory-informed numerical categories. Particularly, in social science, this process usually relies on multiple rounds of manual annotation, domain expert discussion, and rule-based refinement. In this paper, we introduce SCALE, a novel multi-agent framework that effectively simulates content analysis via large language model (LLM) agents. SCALE imitates key phases of content analysis, including text coding, collaborative discussion, and dynamic codebook evolution, capturing the reflective depth and adaptive discussions of human researchers. Furthermore, by integrating diverse modes of human intervention, SCALE is augmented with expert input to further enhance its performance. Extensive evaluations on real-world datasets demonstrate that SCALE achieves human-approximated performance across various complex content analysis tasks, offering an innovative potential for future social science research.},
   pdf={https://aclanthology.org/2025.acl-long.416.pdf},
-  arxiv={2502.10937},
   code={https://github.com/ChengshuaiZhao0/SCALE},
   poster={https://github.com/ChengshuaiZhao0/SCALE/blob/main/acl/poster.pdf},
   video={https://youtu.be/Fq7cutzHdOM}
@@ -185,9 +182,7 @@
   bibtex_show={true},
   abstract={Advancements in large language models (LLMs) have enabled the development of intelligent educational tools that support inquiry-based learning across technical domains. In cybersecurity education, where accuracy and safety are paramount, systems must go beyond surface-level relevance to provide information that is both trustworthy and domain-appropriate. To address this challenge, we introduce CyberBOT, a question-answering chatbot that leverages a retrieval-augmented generation (RAG) pipeline to incorporate contextual information from course-specific materials and validate responses using a domain-specific cybersecurity ontology. The ontology serves as a structured reasoning layer that constrains and verifies LLM-generated answers, reducing the risk of misleading or unsafe guidance. CyberBOT has been deployed in a large graduate-level course at Arizona State University (ASU), where more than one hundred students actively engage with the system through a dedicated web-based platform. Computational evaluations in lab environments highlight the potential capacity of CyberBOT, and a forthcoming field study will evaluate its pedagogical impact. By integrating structured domain reasoning with modern generative capabilities, CyberBOT illustrates a promising direction for developing reliable and curriculum-aligned AI applications in specialized educational contexts.},
   pdf={https://dl.acm.org/doi/pdf/10.1145/3746252.3761478},
-  arxiv={2504.00389},
-  code={https://github.com/rccrdmr/CyberBOT},
-  html={https://www.youtube.com/watch?v=1b0a2c7k3e4}
+  code={https://github.com/rccrdmr/CyberBOT}
 }
 
 @inproceedings{ting2025beyond,
@@ -199,8 +194,7 @@
   preview={ReinRAG.png},
   bibtex_show={true},
   abstract={Clinical note generation aims to produce free-text summaries of a patient's condition and diagnostic process, with discharge instructions being a representative long-form example. While recent LLM-based methods pre-trained on general clinical corpora show promise in clinical text generation, they fall short in producing long-form notes from limited patient information. In this paper, we propose ReinRAG, a reinforced reasoning augmented generation (RAG) for long-form discharge instructions based on pre-admission information. ReinRAG retrieves reasoning paths from a medical knowledge graph to provide explicit semantic guidance to the LLM. To bridge the information gap, we propose group-based retriever optimization (GRO) which improves retrieval quality with group-normalized rewards, encouraging reasoning leaps for deeper inference by the LLM. Comprehensive experiments on the real-world dataset show that ReinRAG outperforms baselines in both clinical efficacy and natural language generation metrics. Further analysis reveals that ReinRAG fills semantic gaps in sparse input scenarios, and retrieved reasoning paths help LLMs avoid clinical misinterpretation by focusing on key evidence and following coherent reasoning.},
-  pdf={https://openreview.net/pdf/f57ed48f06255fd0f7fcffaa657880f37e2b5767.pdf},
-  arxiv={2506.05386}
+  pdf={https://openreview.net/pdf/f57ed48f06255fd0f7fcffaa657880f37e2b5767.pdf}
 }
 
 @inproceedings{zhao2025chain,
@@ -214,9 +208,9 @@
   bibtex_show={true},
   abstract={Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model (LLM) performance on various tasks. With this approach, LLMs appear to produce human-like reasoning steps before providing answers (a.k.a., CoT reasoning), which often leads to the perception that they engage in deliberate inferential processes. However, some initial findings suggest that CoT reasoning may be more superficial than it appears, motivating us to explore further. In this paper, we study CoT reasoning via a data distribution lens and investigate if CoT reasoning reflects a structured inductive bias learned from in-distribution data, allowing the model to conditionally generate reasoning paths that approximate those seen during training. Thus, its effectiveness is fundamentally bounded by the degree of distribution discrepancy between the training data and the test queries. With this lens, we dissect CoT reasoning via three dimensions: task, length, and format. To investigate each dimension, we design DataAlchemy, an isolated and controlled environment to train LLMs from scratch and systematically probe them under various distribution conditions. Our results reveal that CoT reasoning is a brittle mirage that vanishes when it is pushed beyond training distributions. This work offers a deeper understanding of why and when CoT reasoning fails, emphasizing the ongoing challenge of achieving genuine and generalizable reasoning.},
   pdf={https://aclanthology.org/2026.findings-acl.749.pdf},
-  arxiv={2508.01191},
   code={https://github.com/ChengshuaiZhao0/DataAlchemy},
-  html={https://huggingface.co/papers/2508.01191}
+  huggingface={https://huggingface.co/papers/2508.01191},
+  video={https://youtu.be/Dd3p3iK4to8}
 }
 
 @article{jiang2025today,
@@ -241,8 +235,7 @@
   preview={J-Detector.png},
   bibtex_show={true},
   abstract={Large Language Model (LLM)-based judgments leverage powerful LLMs to efficiently evaluate candidate content and provide judgment scores. However, the inherent biases and vulnerabilities of LLM-generated judgments raise concerns, underscoring the urgent need for distinguishing them in sensitive scenarios like academic peer reviewing. In this work, we propose and formalize the task of judgment detection and systematically investigate the detectability of LLM-generated judgments. Unlike LLM-generated text detection, judgment detection relies solely on judgment scores and candidates, reflecting real-world scenarios where textual feedback is often unavailable in the detection process. Our preliminary analysis shows that existing LLM-generated text detection methods perform poorly given their incapability to capture the interaction between judgment scores and candidate content -- an aspect crucial for effective judgment detection. Inspired by this, we introduce \textit(J-Detector), a lightweight and transparent neural detector augmented with explicitly extracted linguistic and LLM-enhanced features to link LLM judges' biases with candidates' properties for accurate detection. Experiments across diverse datasets demonstrate the effectiveness of \textit(J-Detector) and show how its interpretability enables quantifying biases in LLM judges. Finally, we analyze key factors affecting the detectability of LLM-generated judgments and validate the practical utility of judgment detection in real-world scenarios.},
-  pdf={https://openreview.net/pdf/f4d0c2c4606db1aa5fda58641b6bee2173799307.pdf},
-  arxiv={2509.25154}
+  pdf={https://openreview.net/pdf/f4d0c2c4606db1aa5fda58641b6bee2173799307.pdf}
 }
 
 @inproceedings{zhao2026causality,
@@ -257,8 +250,7 @@
   award_name={WWW 2026 Oral},
   bibtex_show={true},
   abstract={The proliferation of online hate speech poses a significant threat to the harmony of the web. While explicit hate is easily recognized through overt slurs, implicit hate speech is often conveyed through sarcasm, irony, stereotypes, or coded language -- making it harder to detect. Existing hate speech detection models, which predominantly rely on surface-level linguistic cues, fail to generalize effectively across diverse stylistic variations. Moreover, hate speech spread on different platforms often targets distinct groups and adopts unique styles, potentially inducing spurious correlations between them and labels, further challenging current detection approaches. Motivated by these observations, we hypothesize that the generation of hate speech can be modeled as a causal graph involving key factors: contextual environment, creator motivation, target, and style. Guided by this graph, we propose CADET, a causal representation learning framework that disentangles hate speech into interpretable latent factors and then controls confounders, thereby isolating genuine hate intent from superficial linguistic cues. Furthermore, CADET allows counterfactual reasoning by intervening on style within the latent space, naturally guiding the model to robustly identify hate speech in varying forms. CADET demonstrates superior performance in comprehensive experiments, highlighting the potential of causal priors in advancing generalizable hate speech detection.},
-  pdf={https://dl.acm.org/doi/pdf/10.1145/3774904.3792669},
-  arxiv={2510.07707}
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3774904.3792669}
 }
 
 @inproceedings{ma2026camo,
@@ -273,8 +265,7 @@
   award_name={PAKDD 2026 Oral},
   bibtex_show={true},
   abstract={Crisis classification in social media aims to extract actionable disaster-related information from multimodal posts, which is a crucial task for enhancing situational awareness and facilitating timely emergency responses. However, the wide variation in crisis types makes achieving generalizable performance across unseen disasters a persistent challenge. Existing approaches primarily leverage deep learning to fuse textual and visual cues for crisis classification, achieving numerically plausible results under in-domain settings. However, they exhibit poor generalization across unseen crisis types because they 1. do not disentangle spurious and causal features, resulting in performance degradation under domain shift, and 2. fail to align heterogeneous modality representations within a shared space, which hinders the direct adaptation of established single-modality domain generalization (DG) techniques to the multimodal setting. To address these issues, we introduce a causality-guided multimodal domain generalization (MMDG) framework that combines adversarial disentanglement with unified representation learning for crisis classification. The adversarial objective encourages the model to disentangle and focus on domain-invariant causal features, leading to more generalizable classifications grounded in stable causal mechanisms. The unified representation aligns features from different modalities within a shared latent space, enabling single-modality DG strategies to be seamlessly extended to multimodal learning. Experiments on the different datasets demonstrate that our approach achieves the best performance in unseen disaster scenarios.},
-  pdf={https://link.springer.com/content/pdf/10.1007/978-981-92-1465-5_15.pdf},
-  arxiv={2512.08071}
+  pdf={https://link.springer.com/content/pdf/10.1007/978-981-92-1465-5_15.pdf}
 }
 
 @inproceedings{chaudhary2026essaycbm,
@@ -287,8 +278,7 @@
   preview={EssayCBM.png},
   bibtex_show={true},
   abstract={Automated essay scoring (AES) has advanced significantly with neural language models, yet most systems remain opaque, offering little visibility into how grades are produced. In educational settings, instructors must be able to understand, trust, and occasionally override the automated grading decisions. We introduce EssayCBM, a rubric-aligned concept bottleneck framework that decomposes essay evaluation into eight interpretable writing concepts before computing the final score. Unlike direct LLM-based grading approaches, EssayCBM learns an explicit and auditable mapping from writing concepts to grades, allowing instructors to inspect and adjust rubric-level predictions during grading. EssayCBM matches neural AES baselines while making grading decisions transparent and directly editable at the rubric level. We further present an interactive system that demonstrates this capability by allowing instructors to inspect and modify concept predictions in real time.},
-  pdf={https://link.springer.com/content/pdf/10.1007/978-3-032-37685-5_22.pdf},
-  arxiv={2512.20817}
+  pdf={https://link.springer.com/content/pdf/10.1007/978-3-032-37685-5_22.pdf}
 }
 
 @inproceedings{wang2026lowrank,
@@ -315,8 +305,7 @@
   bibtex_show={true},
   abstract={Distilling robust reasoning capabilities from large language models (LLMs) into smaller, computationally efficient student models remains an unresolved challenge. Despite recent advances, distilled models frequently suffer from superficial pattern memorization and subpar generalization. To overcome these limitations, we introduce a novel distillation framework that moves beyond simple mimicry to instill a deeper conceptual understanding. Our framework features two key innovations. \underline(\textit(First)), to address pattern memorization, Explanatory Inversion (EI) generates targeted ``explanatory probes'' that compel the student to articulate the underlying logic behind an answer, rather than just memorizing it. \underline(\textit(Second)), to improve generalization, Explanatory GRPO (\texttt(EXGRPO)) uses a reinforcement learning algorithm with a novel Dialogue Structure Utility Bonus, which explicitly rewards the student for maintaining a coherent reasoning process across these probes. Extensive evaluations on 12 datasets demonstrate significant improvements. Using Gemma-7b as the student model, our method yields an average \textbf(20.39\%) increase over zero-shot performance and a \textbf(6.02\%) improvement over the state-of-the-art distillation baselines. Moreover, models distilled with our method show remarkable training efficiency (e.g., surpassing vanilla fine-tuning with \textbf(10-25\%) training data) and strong generalization to out-of-distribution tasks. Implementation is released at https://github.com/Zhen-Tan-dmml/ExGRPO.git.},
   pdf={https://openreview.net/pdf/a529c0a14fc4930d7d091e977e5ac448917f6123.pdf},
-  html={https://openreview.net/forum?id=rkIw2GqYEt},
-  arxiv={2603.19266}
+  html={https://openreview.net/forum?id=rkIw2GqYEt}
 }
 
 @article{zhao2026automating,

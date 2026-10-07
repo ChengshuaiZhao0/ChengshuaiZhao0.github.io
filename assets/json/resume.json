@@ -42,10 +42,7 @@
       "startDate": "2024-01",
       "endDate": "",
       "score": "",
-      "courses": [
-        "Advisor: Prof. Huan Liu",
-        "Expected graduation: Jan 2029"
-      ]
+      "courses": ["Advisor: Prof. Huan Liu", "Expected graduation: Jan 2029"]
     },
     {
       "institution": "University of California, Irvine",
@@ -67,9 +64,7 @@
       "startDate": "2019-09",
       "endDate": "2023-06",
       "score": "GPA: 3.97/4.0, Ranking: 1/63",
-      "courses": [
-        "GPA: 3.97/4.0, Ranking: 1/63"
-      ]
+      "courses": ["GPA: 3.97/4.0, Ranking: 1/63"]
     },
     {
       "institution": "Huazhong Agricultural University",
@@ -80,9 +75,7 @@
       "startDate": "2018-09",
       "endDate": "2023-06",
       "score": "GPA: 3.87/4.0, Ranking: 2/364",
-      "courses": [
-        "GPA: 3.87/4.0, Ranking: 2/364"
-      ]
+      "courses": ["GPA: 3.87/4.0, Ranking: 2/364"]
     }
   ],
   "work": [
@@ -254,94 +247,48 @@
       "name": "Programming Languages",
       "level": "",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "C",
-        "C++",
-        "Java",
-        "Python",
-        "R",
-        "Go",
-        "Scala",
-        "SQL",
-        "Verilog HDL"
-      ]
+      "keywords": ["C", "C++", "Java", "Python", "R", "Go", "Scala", "SQL", "Verilog HDL"]
     },
     {
       "name": "Frameworks",
       "level": "",
       "icon": "fa-solid fa-cogs",
-      "keywords": [
-        "PyTorch",
-        "HF Transformers",
-        "DeepSpeed",
-        "vLLM",
-        "TensorFlow",
-        "Scikit-learn",
-        "Hadoop",
-        "Spark"
-      ]
+      "keywords": ["PyTorch", "HF Transformers", "DeepSpeed", "vLLM", "TensorFlow", "Scikit-learn", "Hadoop", "Spark"]
     },
     {
       "name": "Databases",
       "level": "",
       "icon": "fa-solid fa-database",
-      "keywords": [
-        "Oracle",
-        "MySQL",
-        "SQLite",
-        "MongoDB"
-      ]
+      "keywords": ["Oracle", "MySQL", "SQLite", "MongoDB"]
     },
     {
       "name": "Tools",
       "level": "",
       "icon": "fa-solid fa-tools",
-      "keywords": [
-        "Git",
-        "Docker",
-        "Conda",
-        "Overleaf"
-      ]
+      "keywords": ["Git", "Docker", "Conda", "Overleaf"]
     },
     {
       "name": "Operating Systems",
       "level": "",
       "icon": "fa-solid fa-desktop",
-      "keywords": [
-        "Ubuntu",
-        "CentOS",
-        "macOS",
-        "MS Windows"
-      ]
+      "keywords": ["Ubuntu", "CentOS", "macOS", "MS Windows"]
     }
   ],
   "interests": [
     {
       "name": "Large Language Models",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Post-Training & Reasoning",
-        "Agents & RAG",
-        "Evaluation & LLM-as-a-Judge"
-      ]
+      "keywords": ["Post-Training & Reasoning", "Agents & RAG", "Evaluation & LLM-as-a-Judge"]
     },
     {
       "name": "Trustworthy AI",
       "icon": "fa-solid fa-shield-halved",
-      "keywords": [
-        "LLM/MLLM Security, Privacy & Safety",
-        "Explainability & Interpretability",
-        "Causal Representation Learning"
-      ]
+      "keywords": ["LLM/MLLM Security, Privacy & Safety", "Explainability & Interpretability", "Causal Representation Learning"]
     },
     {
       "name": "Graph Learning & AI for Science",
       "icon": "fa-solid fa-diagram-project",
-      "keywords": [
-        "Graph Representation Learning",
-        "Molecular Foundation Models",
-        "Biomedical Data Mining"
-      ]
+      "keywords": ["Graph Representation Learning", "Molecular Foundation Models", "Biomedical Data Mining"]
     }
   ],
   "certificates": [
