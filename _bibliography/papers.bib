@@ -75,8 +75,6 @@
   booktitle={The Eleventh International Conference on Learning Representations},
   year={2023},
   preview={Mole-BERT.png},
-  award={This paper was accepted as a poster at ICLR 2023},
-  award_name={ICLR 2023 Poster},
   bibtex_show={true},
   abstract={Abstract: Recent years have witnessed the prosperity of pre-training graph neural networks (GNNs) for molecules. Typically, atom types as node attributes are randomly masked, and GNNs are then trained to predict masked types as in AttrMask, following the Masked Language Modeling (MLM) task of BERT. However, unlike MLM with a large vocabulary, the AttrMask pre-training does not learn informative molecular representations due to small and unbalanced atom vocabulary. To amend this problem, we propose a variant of VQ-VAE as a context-aware tokenizer to encode atom attributes into chemically meaningful discrete codes. This can enlarge the atom vocabulary size and mitigate the quantitative divergence between dominant (e.g., carbons) and rare atoms (e.g., phosphorus). With the enlarged atom vocabulary, we propose a novel node-level pre-training task, dubbed Masked Atoms Modeling (MAM), to mask some discrete codes randomly and then pre-train GNNs to predict them. MAM also mitigates another issue of AttrMask, namely the negative transfer. It can be easily combined with various pre-training tasks to improve their performance. Furthermore, we propose triplet masked contrastive learning (TMCL) for graph-level pre-training to model the heterogeneous semantic similarity between molecules for effective molecule retrieval. MAM and TMCL constitute a novel pre-training framework, Mole-BERT, which can match or outperform state-of-the-art methods in a fully data-driven manner.},
   pdf={https://openreview.net/pdf?id=jevY-DtiZTR},
@@ -121,38 +119,38 @@
   pages={1610--1626},
   year={2024},
   preview={LIAR.png},
-  award={This paper was accepted as an EMNLP 2024 main conference paper},
-  award_name={EMNLP 2024 Main},
   bibtex_show={true},
   abstract={Retrieval-Augmented Generative (RAG) models enhance Large Language Models (LLMs) by integrating external knowledge bases, improving their performance in applications like fact-checking and information searching. In this paper, we demonstrate a security threat where adversaries can exploit the openness of these knowledge bases by injecting deceptive content into the retrieval database, intentionally changing the model’s behavior. This threat is critical as it mirrors real-world usage scenarios where RAG systems interact with publicly accessible knowledge bases, such as web scrapings and user-contributed data pools. To be more realistic, we target a realistic setting where the adversary has no knowledge of users’ queries, knowledge base data, and the LLM parameters. We demonstrate that it is possible to exploit the model successfully through crafted content uploads with access to the retriever. Our findings emphasize an urgent need for security measures in the design and deployment of RAG systems to prevent potential manipulation and ensure the integrity of machine-generated content.},
   pdf={https://aclanthology.org/2024.emnlp-main.96.pdf},
   arxiv={2406.19417}
 }
 
-@article{li2025generation,
-  abbr={arXiv},
+@inproceedings{li2025generation,
+  abbr={EMNLP},
   title={From generation to judgment: Opportunities and challenges of llm-as-a-judge},
   author={Li, Dawei and Jiang, Bohan and Huang, Liangjie and Beigi, Alimohammad and Zhao, Chengshuai and Tan, Zhen and Bhattacharjee, Amrita and Jiang, Yuxuan and Chen, Canyu and Wu, Tianhao and others},
-  journal={arXiv preprint arXiv:2411.16594},
-  year={2024},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year={2025},
   preview={LLM-as-a-Judge.png},
+  award={This paper was accepted as an EMNLP 2025 main conference paper (Oral)},
+  award_name={EMNLP 2025 Oral},
   bibtex_show={true},
   abstract={Assessment and evaluation have long been critical challenges in artificial intelligence (AI) and natural language processing (NLP). However, traditional methods, whether matching-based or embedding-based, often fall short of judging subtle attributes and delivering satisfactory results. Recent advancements in Large Language Models (LLMs) inspire the "LLM-as-a-judge" paradigm, where LLMs are leveraged to perform scoring, ranking, or selection across various tasks and applications. This paper provides a comprehensive survey of LLM-based judgment and assessment, offering an in-depth overview to advance this emerging field. We begin by giving detailed definitions from both input and output perspectives. Then we introduce a comprehensive taxonomy to explore LLM-as-a-judge from three dimensions: what to judge, how to judge and where to judge. Finally, we compile benchmarks for evaluating LLM-as-a-judge and highlight key challenges and promising directions, aiming to provide valuable insights and inspire future research in this promising research area.},
-  pdf={https://arxiv.org/pdf/2411.16594},
+  pdf={https://aclanthology.org/2025.emnlp-main.138.pdf},
   arxiv={2411.16594},
   code={https://github.com/llm-as-a-judge/Awesome-LLM-as-a-judge}
 }
 
-@article{zhao2024ontology,
-  abbr={arXiv},
+@inproceedings{zhao2024ontology,
+  abbr={IEEE BigData},
   title={Ontology-aware rag for improved question-answering in cybersecurity education},
   author={Zhao, Chengshuai and Agrawal, Garima and Kumarage, Tharindu and Tan, Zhen and Deng, Yuli and Chen, Ying-Chih and Liu, Huan},
-  journal={arXiv preprint arXiv:2412.14191},
-  year={2024},
+  booktitle={2025 IEEE International Conference on Big Data (BigData)},
+  year={2025},
   preview={CyberRAG.png},
   bibtex_show={true},
   abstract={Integrating AI into education has the potential to transform the teaching of science and technology courses, particularly in the field of cybersecurity. AI-driven question-answering (QA) systems can actively manage uncertainty in cybersecurity problem-solving, offering interactive, inquiry-based learning experiences. Large language models (LLMs) have gained prominence in AI-driven QA systems, offering advanced language understanding and user engagement. However, they face challenges like hallucinations and limited domain-specific knowledge, which reduce their reliability in educational settings. To address these challenges, we propose CyberRAG, an ontology-aware retrieval-augmented generation (RAG) approach for developing a reliable and safe QA system in cybersecurity education. CyberRAG employs a two-step approach: first, it augments the domain-specific knowledge by retrieving validated cybersecurity documents from a knowledge base to enhance the relevance and accuracy of the response. Second, it mitigates hallucinations and misuse by integrating a knowledge graph ontology to validate the final answer. Experiments on publicly available cybersecurity datasets show that CyberRAG delivers accurate, reliable responses aligned with domain knowledge, demonstrating the potential of AI tools to enhance education.},
-  pdf={https://arxiv.org/abs/2412.14191},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11401740},
   arxiv={2412.14191},
 }
 
@@ -164,8 +162,8 @@
   pages={8473--8503},
   year={2025},
   preview={SCALE.png},
-  award={This paper was accepted as an ACL 2025 main conference paper},
-  award_name={ACL 2025 Main},
+  award={This paper was accepted as an ACL 2025 main conference paper (Oral)},
+  award_name={ACL 2025 Oral},
   bibtex_show={true},
   abstract={Content analysis breaks down complex and unstructured texts into theory-informed numerical categories. Particularly, in social science, this process usually relies on multiple rounds of manual annotation, domain expert discussion, and rule-based refinement. In this paper, we introduce SCALE, a novel multi-agent framework that effectively simulates content analysis via large language model (LLM) agents. SCALE imitates key phases of content analysis, including text coding, collaborative discussion, and dynamic codebook evolution, capturing the reflective depth and adaptive discussions of human researchers. Furthermore, by integrating diverse modes of human intervention, SCALE is augmented with expert input to further enhance its performance. Extensive evaluations on real-world datasets demonstrate that SCALE achieves human-approximated performance across various complex content analysis tasks, offering an innovative potential for future social science research.},
   pdf={https://aclanthology.org/2025.acl-long.416.pdf},
@@ -175,45 +173,47 @@
   video={https://youtu.be/Fq7cutzHdOM}
 }
 
-@article{zhao2025cyberbot,
-  abbr={arXiv},
+@inproceedings{zhao2025cyberbot,
+  abbr={CIKM},
   title={CyberBOT: Towards Reliable Cybersecurity Education via Ontology-Grounded Retrieval Augmented Generation},
   author={Zhao, Chengshuai and De Maria, Riccardo and Kumarage, Tharindu and Chaudhary, Kumar Satvik and Agrawal, Garima and Li, Yiwen and Park, Jongchan and Deng, Yuli and Chen, Ying-Chih and Liu, Huan},
-  journal={arXiv preprint arXiv:2504.00389},
+  booktitle={Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM), Demo Track},
   year={2025},
   preview={CyberBOT.png},
+  award={This paper won the Best Paper Award in the CIKM 2025 Demo Papers Track},
+  award_name={Best Paper Award},
   bibtex_show={true},
   abstract={Advancements in large language models (LLMs) have enabled the development of intelligent educational tools that support inquiry-based learning across technical domains. In cybersecurity education, where accuracy and safety are paramount, systems must go beyond surface-level relevance to provide information that is both trustworthy and domain-appropriate. To address this challenge, we introduce CyberBOT, a question-answering chatbot that leverages a retrieval-augmented generation (RAG) pipeline to incorporate contextual information from course-specific materials and validate responses using a domain-specific cybersecurity ontology. The ontology serves as a structured reasoning layer that constrains and verifies LLM-generated answers, reducing the risk of misleading or unsafe guidance. CyberBOT has been deployed in a large graduate-level course at Arizona State University (ASU), where more than one hundred students actively engage with the system through a dedicated web-based platform. Computational evaluations in lab environments highlight the potential capacity of CyberBOT, and a forthcoming field study will evaluate its pedagogical impact. By integrating structured domain reasoning with modern generative capabilities, CyberBOT illustrates a promising direction for developing reliable and curriculum-aligned AI applications in specialized educational contexts.},
-  pdf={https://arxiv.org/pdf/2504.00389.pdf},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3746252.3761478},
   arxiv={2504.00389},
   code={https://github.com/rccrdmr/CyberBOT},
   html={https://www.youtube.com/watch?v=1b0a2c7k3e4}
 }
 
-@article{ting2025beyond,
-  abbr={arXiv},
+@inproceedings{ting2025beyond,
+  abbr={NeurIPS Workshop},
   title={Leaps Beyond the Seen: Reinforced Reasoning Augmented Generation for Clinical Notes},
   author={Ting*, Lo Pang-Yun and Zhao*, Chengshuai and Zeng, Yu-Hua and Lim, Yuan Jee and Chuang, Kun-Ta and Liu, Huan},
-  journal={arXiv preprint arXiv:2506.05386},
+  booktitle={GenAI4Health Workshop at NeurIPS 2025},
   year={2025},
   preview={ReinRAG.png},
   bibtex_show={true},
   abstract={Clinical note generation aims to produce free-text summaries of a patient's condition and diagnostic process, with discharge instructions being a representative long-form example. While recent LLM-based methods pre-trained on general clinical corpora show promise in clinical text generation, they fall short in producing long-form notes from limited patient information. In this paper, we propose ReinRAG, a reinforced reasoning augmented generation (RAG) for long-form discharge instructions based on pre-admission information. ReinRAG retrieves reasoning paths from a medical knowledge graph to provide explicit semantic guidance to the LLM. To bridge the information gap, we propose group-based retriever optimization (GRO) which improves retrieval quality with group-normalized rewards, encouraging reasoning leaps for deeper inference by the LLM. Comprehensive experiments on the real-world dataset show that ReinRAG outperforms baselines in both clinical efficacy and natural language generation metrics. Further analysis reveals that ReinRAG fills semantic gaps in sparse input scenarios, and retrieved reasoning paths help LLMs avoid clinical misinterpretation by focusing on key evidence and following coherent reasoning.},
-  pdf={https://arxiv.org/pdf/2506.05386.pdf},
+  pdf={https://openreview.net/pdf/f57ed48f06255fd0f7fcffaa657880f37e2b5767.pdf},
   arxiv={2506.05386}
 }
 
-@article{zhao2025chain,
-  abbr={arXiv},
+@inproceedings{zhao2025chain,
+  abbr={ACL},
   title={Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens},
   author={Zhao, Chengshuai and Tan, Zhen and Ma, Pingchuan and Li, Dawei and Jiang, Bohan and Wang, Yancheng and Yang, Yingzhen and Liu, Huan},
-  journal={arXiv preprint arXiv:2508.01191},
-  year={2025},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+  year={2026},
   preview={DataAlchemy.png},
   selected={true},
   bibtex_show={true},
   abstract={Chain-of-Thought (CoT) prompting has been shown to improve Large Language Model (LLM) performance on various tasks. With this approach, LLMs appear to produce human-like reasoning steps before providing answers (a.k.a., CoT reasoning), which often leads to the perception that they engage in deliberate inferential processes. However, some initial findings suggest that CoT reasoning may be more superficial than it appears, motivating us to explore further. In this paper, we study CoT reasoning via a data distribution lens and investigate if CoT reasoning reflects a structured inductive bias learned from in-distribution data, allowing the model to conditionally generate reasoning paths that approximate those seen during training. Thus, its effectiveness is fundamentally bounded by the degree of distribution discrepancy between the training data and the test queries. With this lens, we dissect CoT reasoning via three dimensions: task, length, and format. To investigate each dimension, we design DataAlchemy, an isolated and controlled environment to train LLMs from scratch and systematically probe them under various distribution conditions. Our results reveal that CoT reasoning is a brittle mirage that vanishes when it is pushed beyond training distributions. This work offers a deeper understanding of why and when CoT reasoning fails, emphasizing the ongoing challenge of achieving genuine and generalizable reasoning.},
-  pdf={https://arxiv.org/pdf/2508.01191.pdf},
+  pdf={https://aclanthology.org/2026.findings-acl.749.pdf},
   arxiv={2508.01191},
   code={https://github.com/ChengshuaiZhao0/DataAlchemy},
   html={https://huggingface.co/papers/2508.01191}
@@ -230,4 +230,183 @@
   abstract={Well-being encompasses mental, physical, and social dimensions essential to personal growth and informed life decisions. As individuals increasingly consult Large Language Models (LLMs) to understand well-being, a key challenge emerges: Can LLMs generate explanations that are not only accurate but also tailored to diverse audiences? High-quality explanations require both factual correctness and the ability to meet the expectations of users with varying expertise. In this work, we construct a large-scale dataset comprising 43,880 explanations of 2,194 well-being concepts, generated by ten diverse LLMs. We introduce a principle-guided LLM-as-a-judge evaluation framework, employing dual judges to assess explanation quality. Furthermore, we show that fine-tuning an open-source LLM using Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) can significantly enhance the quality of generated explanations. Our results reveal: (1) The proposed LLM judges align well with human evaluations; (2) explanation quality varies significantly across models, audiences, and categories; and (3) DPO- and SFT-finetuned models outperform their larger counterparts, demonstrating the effectiveness of preference-based learning for specialized explanation tasks.},
   pdf={https://arxiv.org/pdf/2508.03990.pdf},
   arxiv={2508.03990}
+}
+
+@inproceedings{li2025judge,
+  abbr={NeurIPS Workshop},
+  title={Who's Your Judge? On the Detectability of LLM-Generated Judgments},
+  author={Li, Dawei and Tan, Zhen and Zhao, Chengshuai and Jiang, Bohan and Huang, Baixiang and Ma, Pingchuan and Alnaibari, Abdullah and Shu, Kai and Liu, Huan},
+  booktitle={Lock-LLM Workshop at NeurIPS 2025},
+  year={2025},
+  preview={J-Detector.png},
+  bibtex_show={true},
+  abstract={Large Language Model (LLM)-based judgments leverage powerful LLMs to efficiently evaluate candidate content and provide judgment scores. However, the inherent biases and vulnerabilities of LLM-generated judgments raise concerns, underscoring the urgent need for distinguishing them in sensitive scenarios like academic peer reviewing. In this work, we propose and formalize the task of judgment detection and systematically investigate the detectability of LLM-generated judgments. Unlike LLM-generated text detection, judgment detection relies solely on judgment scores and candidates, reflecting real-world scenarios where textual feedback is often unavailable in the detection process. Our preliminary analysis shows that existing LLM-generated text detection methods perform poorly given their incapability to capture the interaction between judgment scores and candidate content -- an aspect crucial for effective judgment detection. Inspired by this, we introduce \textit(J-Detector), a lightweight and transparent neural detector augmented with explicitly extracted linguistic and LLM-enhanced features to link LLM judges' biases with candidates' properties for accurate detection. Experiments across diverse datasets demonstrate the effectiveness of \textit(J-Detector) and show how its interpretability enables quantifying biases in LLM judges. Finally, we analyze key factors affecting the detectability of LLM-generated judgments and validate the practical utility of judgment detection in real-world scenarios.},
+  pdf={https://openreview.net/pdf/f4d0c2c4606db1aa5fda58641b6bee2173799307.pdf},
+  arxiv={2509.25154}
+}
+
+@inproceedings{zhao2026causality,
+  abbr={WWW},
+  title={Causality Guided Representation Learning for Cross-Style Hate Speech Detection},
+  author={Zhao, Chengshuai and Wan, Shu and Sheth, Paras and Patwa, Karan and Candan, K. Selçuk and Liu, Huan},
+  booktitle={Proceedings of the ACM Web Conference 2026},
+  publisher={ACM},
+  year={2026},
+  preview={CADET.png},
+  award={This paper was accepted by WWW 2026 as an oral presentation, and by the UCRL Workshop at ICLR 2026},
+  award_name={WWW 2026 Oral},
+  bibtex_show={true},
+  abstract={The proliferation of online hate speech poses a significant threat to the harmony of the web. While explicit hate is easily recognized through overt slurs, implicit hate speech is often conveyed through sarcasm, irony, stereotypes, or coded language -- making it harder to detect. Existing hate speech detection models, which predominantly rely on surface-level linguistic cues, fail to generalize effectively across diverse stylistic variations. Moreover, hate speech spread on different platforms often targets distinct groups and adopts unique styles, potentially inducing spurious correlations between them and labels, further challenging current detection approaches. Motivated by these observations, we hypothesize that the generation of hate speech can be modeled as a causal graph involving key factors: contextual environment, creator motivation, target, and style. Guided by this graph, we propose CADET, a causal representation learning framework that disentangles hate speech into interpretable latent factors and then controls confounders, thereby isolating genuine hate intent from superficial linguistic cues. Furthermore, CADET allows counterfactual reasoning by intervening on style within the latent space, naturally guiding the model to robustly identify hate speech in varying forms. CADET demonstrates superior performance in comprehensive experiments, highlighting the potential of causal priors in advancing generalizable hate speech detection.},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3774904.3792669},
+  arxiv={2510.07707}
+}
+
+@inproceedings{ma2026camo,
+  abbr={PAKDD},
+  title={CAMO: Causality-Guided Adversarial Multimodal Domain Generalization for Crisis Classification},
+  author={Ma, Pingchuan and Zhao, Chengshuai and Jiang, Bohan and Vishnubhatla, Saketh and Jeong, Ujun and Beigi, Alimohammad and Raglin, Adrienne and Liu, Huan},
+  booktitle={Advances in Knowledge Discovery and Data Mining: 30th Pacific-Asia Conference, PAKDD 2026},
+  publisher={Springer},
+  year={2026},
+  preview={CAMO.png},
+  award={This paper was accepted by PAKDD 2026 as an oral presentation},
+  award_name={PAKDD 2026 Oral},
+  bibtex_show={true},
+  abstract={Crisis classification in social media aims to extract actionable disaster-related information from multimodal posts, which is a crucial task for enhancing situational awareness and facilitating timely emergency responses. However, the wide variation in crisis types makes achieving generalizable performance across unseen disasters a persistent challenge. Existing approaches primarily leverage deep learning to fuse textual and visual cues for crisis classification, achieving numerically plausible results under in-domain settings. However, they exhibit poor generalization across unseen crisis types because they 1. do not disentangle spurious and causal features, resulting in performance degradation under domain shift, and 2. fail to align heterogeneous modality representations within a shared space, which hinders the direct adaptation of established single-modality domain generalization (DG) techniques to the multimodal setting. To address these issues, we introduce a causality-guided multimodal domain generalization (MMDG) framework that combines adversarial disentanglement with unified representation learning for crisis classification. The adversarial objective encourages the model to disentangle and focus on domain-invariant causal features, leading to more generalizable classifications grounded in stable causal mechanisms. The unified representation aligns features from different modalities within a shared latent space, enabling single-modality DG strategies to be seamlessly extended to multimodal learning. Experiments on the different datasets demonstrate that our approach achieves the best performance in unseen disaster scenarios.},
+  pdf={https://link.springer.com/content/pdf/10.1007/978-981-92-1465-5_15.pdf},
+  arxiv={2512.08071}
+}
+
+@inproceedings{chaudhary2026essaycbm,
+  abbr={ECML-PKDD},
+  title={EssayCBM: Rubric-Aligned Concept Bottleneck Models for Transparent Essay Grading},
+  author={Chaudhary, Kumar Satvik and Zhao, Chengshuai and Zhang, Fan and Agrawal, Garima and Deng, Yuli and Liu, Huan},
+  booktitle={Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2026},
+  publisher={Springer},
+  year={2026},
+  preview={EssayCBM.png},
+  bibtex_show={true},
+  abstract={Automated essay scoring (AES) has advanced significantly with neural language models, yet most systems remain opaque, offering little visibility into how grades are produced. In educational settings, instructors must be able to understand, trust, and occasionally override the automated grading decisions. We introduce EssayCBM, a rubric-aligned concept bottleneck framework that decomposes essay evaluation into eight interpretable writing concepts before computing the final score. Unlike direct LLM-based grading approaches, EssayCBM learns an explicit and auditable mapping from writing concepts to grades, allowing instructors to inspect and adjust rubric-level predictions during grading. EssayCBM matches neural AES baselines while making grading decisions transparent and directly editable at the rubric level. We further present an interactive system that demonstrates this capability by allowing instructors to inspect and modify concept predictions in real time.},
+  pdf={https://link.springer.com/content/pdf/10.1007/978-3-032-37685-5_22.pdf},
+  arxiv={2512.20817}
+}
+
+@inproceedings{wang2026lowrank,
+  abbr={ICLR},
+  title={Low-Rank Few-Shot Node Classification by Node-Level Graph Diffusion},
+  author={Wang, Yancheng and Zhao, Chengshuai and Sun, Dongfang and Liu, Huan and Yang, Yingzhen},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  preview={LR-FGDM.png},
+  bibtex_show={true},
+  abstract={In this paper, we propose a novel node-level graph diffusion method with low-rank feature learning for few-shot node classification (FSNC), termed Low-Rank Few-Shot Graph Diffusion Model or LR-FGDM. LR-FGDM first employs a novel Few-Shot Graph Diffusion Model (FGDM) as a node-level graph generative method to generate an augmented graph with an enlarged support set, then performs low-rank transductive classification to obtain the few-shot node classification results. Our graph diffusion model, FGDM, comprises two components, the Hierarchical Graph Autoencoder (HGAE) with an efficient hierarchical edge reconstruction method and a new prototypical regularization, and the Latent Diffusion Model (LDM). The low-rank regularization is robust to the noise inherently introduced by the diffusion model and empirically inspired by the Low Frequency Property. We also provide a strong theoretical guarantee justifying the low-rank regularization for the transductive classification in few-shot learning. To further enhance the performance of LR-FGDM, we introduce LRA-LR-FGDM with a novel efficient LR-Attention layer, or the LRA layer, which applies self-attention to the output of the LR-FGDM encoder. The LRA layer further reduces the kernel complexity of LR-FGDM and contributes to a tighter generalization bound, leading to improved performance. Extensive experimental results evidence the effectiveness of LR-FGDM for few-shot node classification, which outperforms the current state-of-the-art. The code of the LR-FGDM is available at https://github.com/Statistical-Deep-Learning/LR-FGDM.},
+  pdf={https://openreview.net/pdf/21b930eafe227e9238a9621a45a605f5c7224476.pdf},
+  html={https://openreview.net/forum?id=kXhh2lToaR},
+  code={https://github.com/Statistical-Deep-Learning/LR-FGDM}
+}
+
+@inproceedings{tan2026probing,
+  abbr={ICLR},
+  title={Probing to Refine: Reinforcement Distillation of LLM Reasoners via Explanatory Inversion},
+  author={Tan, Zhen and Zhao, Chengshuai and Wang, Song and Li, Jundong and Chen, Tianlong and Liu, Huan},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  preview={ExGRPO.png},
+  bibtex_show={true},
+  abstract={Distilling robust reasoning capabilities from large language models (LLMs) into smaller, computationally efficient student models remains an unresolved challenge. Despite recent advances, distilled models frequently suffer from superficial pattern memorization and subpar generalization. To overcome these limitations, we introduce a novel distillation framework that moves beyond simple mimicry to instill a deeper conceptual understanding. Our framework features two key innovations. \underline(\textit(First)), to address pattern memorization, Explanatory Inversion (EI) generates targeted ``explanatory probes'' that compel the student to articulate the underlying logic behind an answer, rather than just memorizing it. \underline(\textit(Second)), to improve generalization, Explanatory GRPO (\texttt(EXGRPO)) uses a reinforcement learning algorithm with a novel Dialogue Structure Utility Bonus, which explicitly rewards the student for maintaining a coherent reasoning process across these probes. Extensive evaluations on 12 datasets demonstrate significant improvements. Using Gemma-7b as the student model, our method yields an average \textbf(20.39\%) increase over zero-shot performance and a \textbf(6.02\%) improvement over the state-of-the-art distillation baselines. Moreover, models distilled with our method show remarkable training efficiency (e.g., surpassing vanilla fine-tuning with \textbf(10-25\%) training data) and strong generalization to out-of-distribution tasks. Implementation is released at https://github.com/Zhen-Tan-dmml/ExGRPO.git.},
+  pdf={https://openreview.net/pdf/a529c0a14fc4930d7d091e977e5ac448917f6123.pdf},
+  html={https://openreview.net/forum?id=rkIw2GqYEt},
+  arxiv={2603.19266}
+}
+
+@article{zhao2026automating,
+  abbr={Journal},
+  title={Automating Content Analysis With Multiple LLM Agents: Impacts of Agent Attributes and Human–AI Collaboration},
+  author={Zhao, Xinyan and Zhao, Chengshuai and Mengesteab, Mordecai and Wong, Chau-Wai and Zhan, Mengqi and Tan, Zhen and Chen, Tianlong},
+  journal={Social Science Computer Review},
+  year={2026},
+  publisher={SAGE Publications},
+  preview={Multi-Agent-Content-Analysis.png},
+  bibtex_show={true},
+  abstract={Emerging research in computational social science has applied LLMs to automate content analysis, often by prompting a single model to act as a human coder. While a single LLM may suffice for a few manifest variables, it still falls short on diverse latent constructs. And the impact of LLM agent attributes on measurement outcomes remains unclear, limiting their validity for communication research. Drawing upon the literature on interacting agents and communication, this study examines the impact of agent diversity, agent open-mindedness, and human–AI collaboration (HAIC) in a multi-LLM-agent system for automated content analysis. The results demonstrate reliable and accurate measurement of four communication variables across three datasets, with improved performance following agent discussion. Additionally, agent open-mindedness, but not agent diversity, significantly affects measurement outcomes. These results highlight the potential of multi-LLM-agent systems for automated content analysis and suggest the importance of considering agent attributes and values in system design.},
+  pdf={https://journals.sagepub.com/doi/pdf/10.1177/08944393261465001},
+  html={https://doi.org/10.1177/08944393261465001}
+}
+
+@article{wang2026survey,
+  abbr={Journal},
+  title={Large Language Models for Data Science: A Survey},
+  author={Wang, Song and Tan, Zhen and Chen, Zihan and Li, Dawei and Zhu, Yaochen and Jiang, Bohan and He, Yinhan and Zhao, Chengshuai and Lei, Zhenyu and Sheth, Paras and Li, Lichi and Ting, Lo Pang-Yun and Li, Jundong and Liu, Huan},
+  journal={ACM SIGKDD Explorations Newsletter},
+  year={2026},
+  publisher={ACM},
+  preview={LLM4DS-Survey.png},
+  bibtex_show={true},
+  abstract={Data science is an interdisciplinary field that focuses on extracting knowledge from raw data using statistical analysis and machine learning techniques. However, as data continues to grow in scale and complexity, data scientists face increasing challenges in handling unstructured data, automating workflows, and scaling analytical processes. The advancements of large language models (LLMs) present an unprecedented opportunity to enhance and streamline data science tasks by enabling automation and augmentation of key processes in the data science pipeline. This survey contributes to four core aspects: the role of LLMs in the data science cycle, specialized domain applications, challenges and limitations, and social impact and future directions. Furthermore, we introduce a structured framework defining how LLMs contribute to each stage of data science, provide an in-depth discussion on their applications in key domains such as healthcare and finance, analyze key obstacles such as data quality and model interpretability, and explore ethical concerns and future research opportunities. Serving as a comprehensive resource, this survey aims to assist researchers and practitioners in understanding and utilizing LLMs to advance modern data science methodologies. We provide the paper list of LLMs for data science at https://github.com/SongW-SW/awesome-LLM-DS.},
+  pdf={https://www.researchgate.net/profile/Song_Wang84/publication/392594876_Large_Language_Models_for_Data_Science_A_Survey/links/6849ecfdd0be921dfef6ed18/Large-Language-Models-for-Data-Science-A-Survey.pdf}
+}
+
+@inproceedings{li2026epistemic,
+  abbr={LERN},
+  title={Epistemic Cognition and Uncertainty Navigation with a Domain-Specific AI Chatbot in STEM Education},
+  author={Li, Yiwen and Zhao, Chengshuai and Agrawal, Garima and Deng, Yuli and Park, Jongchan and Chen, Ying-Chih and Liu, Huan},
+  booktitle={Proceedings of the Learning Engineering Research Network Convening (LERN 2026)},
+  year={2026},
+  preview={Epistemic-Cognition.png},
+  bibtex_show={true},
+  abstract={Domain-specific AI chatbots are increasingly embedded in STEM courses, yet little is known about how students judge, interpret, and act on AI-generated feedback during learning. This study examines students’ epistemic cognition when interacting with Cyberbot, a domain-specific AI-powered chatbot integrated into a cloud computing course. Drawing on post-course semi-structured interviews with twelve students, we analyze how learners articulate epistemic aims, evaluate the correctness and reliability of AI feedback, and navigate uncertainty when deciding whether to revise or persist in their problem-solving approaches. Findings indicate that Cyberbot does not eliminate uncertainty for learners; instead, it reorganizes epistemic work by shifting responsibility toward verification, judgment, and decision-making. Students demonstrated calibrated trust, actively cross-checking AI responses with other sources and using the chatbot primarily for epistemic verification rather than open-ended exploration. These results highlight the importance of examining epistemic processes when evaluating AI-supported learning.},
+  html={https://doi.org/10.59668/2551.25169}
+}
+
+@inproceedings{zhao2026reccbm,
+  abbr={SDM},
+  title={REC-CBM: Rubric-Aware Error-Correction Concept Bottleneck Models for Trustworthy Open-Ended Grading},
+  author={Zhao, Chengshuai and Zhang, Fan and Chaudhary, Kumar Satvik and Li, Yiwen and Ting, Lo Pang-Yun and Chen, Ying-Chih and Liu, Huan},
+  booktitle={Proceedings of the 2026 SIAM International Conference on Data Mining (SDM)},
+  publisher={SIAM},
+  year={2026},
+  preview={REC-CBM.png},
+  bibtex_show={true},
+  abstract={Open-ended grading is central to equitable and personalized education, yet manual grading remains time-consuming and costly, underscoring the need for automated grading systems. Although recent neural and large language model (LLM) based systems have demonstrated superior performance, they are typically black-box models whose scoring processes and rationales are difficult for educators to verify and trust. Concept bottleneck models (CBMs) have emerged as a promising approach by routing predictions through human-interpretable concepts, providing a mechanistic guarantee of transparency. However, standard CBMs are not tailored to open-ended grading: they do not explicitly model fine-grained rubric dimensions, inadequately capture the ordinal semantics of scoring scales, and neglect inherent reliability issues in human concept annotations. To address these limitations, we propose REC-CBM, a rubric-aware error-correction concept bottleneck model for trustworthy open-ended grading. REC-CBM introduces a rubric-aware concept encoder that learns concept-specific representations over responses and an ordinal pairwise calibration objective that preserves ranking structure among rubric dimensions. It further incorporates a latent concept error-correction module that denoises concept predictions before final grade prediction while preserving interpretability. Comprehensive experiments on publicly available datasets show that REC-CBM consistently improves grading performance and produces more faithful concept-level reasoning than both state-of-the-art baselines. Further analyses validate the contribution of each component and demonstrate the applicability in realistic educational settings. Overall, this work provides a practical, interpretable grading solution that enables educators to inspect, intervene in, and trust automated decisions, advancing more transparent and trustworthy education.},
+  pdf={https://arxiv.org/pdf/2605.27402.pdf},
+  arxiv={2605.27402}
+}
+
+@article{zhao2026see,
+  abbr={arXiv},
+  title={To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model},
+  author={Zhao, Chengshuai and Tan, Zhen and Li, Dawei and Yu, Zhiyuan and Liu, Huan},
+  journal={arXiv preprint arXiv:2605.14291},
+  year={2026},
+  preview={MMGuard.png},
+  bibtex_show={true},
+  abstract={The rapid advancement of Large Vision-Language Models (LVLMs) is increasingly accompanied by unauthorized scraping and training on multimodal web data, posing severe copyright and privacy risks to data owners. Existing countermeasures, such as machine unlearning and watermarks, are inherent post-hoc approaches that act only after intellectual property infringement has already occurred. In this work, we propose MMGuard to empower data owners to proactively protect their multimodal data against unauthorized LVLM fine-tuning. MMGuard generates unlearnable examples by injecting human-imperceptible perturbations that actively exploit the learning dynamics of LVLMs. By minimizing the training loss, the perturbation creates an optimization shortcut, causing the model to overfit to the noise and thereby degrading downstream performance when the perturbation is absent during inference. To further strengthen this defense, MMGuard introduces a cross-modal binding disruption, strategically shifting LVLM attention to enforce a spurious correlation between the noise and the training target with theoretical guarantees. Enhanced by an ensemble learning strategy for cross-model transferability, MMGuard is evaluated against nine open-source LVLMs across six datasets. Our comprehensive results demonstrate effective, stealthy, and robust protection under white-box, gray-box, and black-box threat models, establishing a mechanistic advantage in proactively defending against aggressive fine-tuning exploitation.},
+  pdf={https://arxiv.org/pdf/2605.14291.pdf},
+  arxiv={2605.14291}
+}
+
+@article{zhao2026textcloak,
+  abbr={arXiv},
+  title={TextCloak: Thwarting Unauthorized LLM Exploitation via RL-Driven Unlearnable Text},
+  author={Zhao, Chengshuai and Ma, Pingchuan and Li, Dawei and Jiang, Bohan and Yu, Zhiyuan and Tan, Zhen and Liu, Huan},
+  journal={arXiv preprint arXiv:2607.28862},
+  year={2026},
+  preview={TextCloak.png},
+  bibtex_show={true},
+  abstract={The rapid development of Large Language Models (LLMs) has led to significant advances across a wide range of language tasks, while simultaneously raising growing concerns about unauthorized data exploitation and privacy leakage. Unlearnable examples (UEs) offer a promising defense by introducing carefully designed perturbations into data such that models trained on them exhibit degraded utility. However, existing methods for text protection are primarily designed for classification tasks (e.g., sentiment analysis) in discriminative language models and often rely on injecting class-specific linguistic cues, which limits their effectiveness in the open-ended generation settings of LLMs. In this work, we propose TextCloak, an RL-driven framework for protecting textual data against unauthorized LLM exploitation. TextCloak employs a generative policy that transforms batches of clean text into unlearnable examples while preserving semantic fidelity and linguistic naturalness. To optimize the policy, we introduce GRPO-UE, which rewards generated unlearnable text based on the downstream degradation they induce in fine-tuned surrogate LLMs and updates the generator parameters via group-relative policy optimization. This bi-level optimization enables the generator to discover generalizable protective patterns beyond class-specific cues. Comprehensive experiments on six publicly available datasets and nine state-of-the-art LLMs demonstrate that TextCloak consistently impairs unauthorized fine-tuning while maintaining text utility for legitimate use. Further analyses establish its transferability and robustness across model architectures, training configurations, and adaptive attacks, highlighting its broad applicability as a practical defense against unauthorized LLM exploitation.},
+  pdf={https://arxiv.org/pdf/2607.28862.pdf},
+  arxiv={2607.28862}
+}
+
+@article{liu2026mugen,
+  abbr={arXiv},
+  title={MUGEN: Generating Unlearnable Graph Examples for Multiple Learning Tasks},
+  author={Liu, Ziyan and Zhao, Chengshuai and Liu, Huan},
+  journal={arXiv preprint arXiv:2609.00696},
+  year={2026},
+  preview={MUGEN.png},
+  bibtex_show={true},
+  abstract={Graph data across diverse domains can expose valuable relational information to unauthorized representation learning, creating a pressing need for protection against such misuse. Unlearnable examples offer a data-level defense by perturbing a training release so that models trained on it fail to generalize to clean data. Existing methods generate unlearnable graph examples for only a specified downstream task. Consequently, a release protected against one task may remain learnable for other plausible uses, including node classification, graph classification, and link prediction, which the data owner cannot anticipate. We introduce MUGEN, to our knowledge the first framework for generating unlearnable graph examples that jointly protect all enabled tasks. From one clean dataset, MUGEN produces a single feature-perturbed release that protects every enabled task through a shared GNN encoder and task-specific heads. We devise a Task-Aligned Separability Objective (TASO), which leverages task prediction and classwise separability to strengthen unlearnability and its transfer across GNN backbones and enabled tasks. We further introduce Type-Adaptive Perturbation (TAP), which tailors perturbation optimization to node-attribute type, with direct search over feasible hard flips that accept only loss-improving updates for discrete node attributes and customized gradient-based updates for continuous node features, thereby enabling strong unlearnability across both settings. Experiments across five benchmarks, four backends and three learning paradigms demonstrate that MUGEN generates transferable unlearnable graph examples across GNN backbones and all three tasks, and remains effective under adversarial training and data augmentation.},
+  pdf={https://arxiv.org/pdf/2609.00696.pdf},
+  arxiv={2609.00696}
 }

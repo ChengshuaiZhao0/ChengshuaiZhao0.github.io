@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One [paper](https://arxiv.org/abs/2502.10937) for multi-agent LLMs has been accepted by the ACL 2025 main conference.
+One paper for [multi-agent LLMs](https://arxiv.org/abs/2502.10937) has been accepted by the ACL 2025 main conference.
