@@ -30,19 +30,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-service",
+          title: "Service",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/service/";
+          },
+        },{id: "nav-talks-amp-media",
+          title: "Talks &amp; Media",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-repositories",
           title: "Repositories",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
-          },
-        },{id: "nav-service",
-          title: "Service",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "post-how-to-make-good-figures-for-scientific-papers",
         
@@ -68,6 +75,21 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-one-paper-for-cot-reasoning-of-llms-has-been-released-on-arxiv",
           title: 'One paper for CoT reasoning of LLMs has been released on arXiv.',
+          description: "",
+          section: "News",},{id: "news-two-papers-have-been-accepted-by-iclr-2026-one-for-reasoning-distillation-of-llms-and-one-for-few-shot-node-classification-with-graph-diffusion",
+          title: 'Two papers have been accepted by ICLR 2026: one for reasoning distillation of...',
+          description: "",
+          section: "News",},{id: "news-one-paper-for-cot-reasoning-of-llms-has-been-accepted-by-acl-2026",
+          title: 'One paper for CoT reasoning of LLMs has been accepted by ACL 2026....',
+          description: "",
+          section: "News",},{id: "news-one-paper-for-protecting-multimodal-data-from-unauthorized-vlm-fine-tuning-has-been-released-on-arxiv",
+          title: 'One paper for protecting multimodal data from unauthorized VLM fine-tuning has been released...',
+          description: "",
+          section: "News",},{id: "news-i-received-the-gold-reviewer-award-from-icml-2026",
+          title: 'I received the Gold Reviewer Award from ICML 2026.',
+          description: "",
+          section: "News",},{id: "news-one-paper-for-protecting-text-data-from-unauthorized-llm-exploitation-has-been-released-on-arxiv",
+          title: 'One paper for protecting text data from unauthorized LLM exploitation has been released...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
