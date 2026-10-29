@@ -104,7 +104,7 @@
       "endDate": "2022-09",
       "summary": "Advised by Prof. Stan Z. Li.",
       "highlights": [
-        "Molecular foundation models: self-supervised pre-training of GNNs for molecules with a context-aware atom-level tokenizer and masked atom modeling with contrastive learning (Mole-BERT, ICLR 2023)."
+        "Molecular foundation models: self-supervised pre-training of GNNs for molecules with a context-aware atom-level tokenizer and masked atom modeling with contrastive learning."
       ]
     },
     {
