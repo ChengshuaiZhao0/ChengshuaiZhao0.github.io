@@ -55,4 +55,6 @@ I completed my undergraduate studies at Huazhong Agricultural University (HZAU) 
 
 At the core of my research lies a fascination with the interplay between observation and understanding: how learning enables us to see beyond the apparent and uncover truths that reshape our perspective. My work spans Data Mining, AI for Science, Representation Learning, and Large Language Models, through which I aim to develop systems that are more generalizable, transparent, and capable of revealing knowledge at the frontier of human perception.
 
+Recently, I have focused on the **safety, security, and privacy of large language models** across their lifecycle: protecting data from unauthorized training, protecting models from capability extraction, and stress-testing retrieval, multi-agent, and reasoning systems in deployment. Explore it on my [research page]({{ '/research/' | relative_url }}).
+
 ---
