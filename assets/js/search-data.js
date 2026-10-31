@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-research",
+          title: "Research",
+          description: "Research on the safety, security, and privacy of large language models across their lifecycle, from the data they learn from, to the models themselves, to the systems they are deployed in.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
         },{id: "nav-publications",
           title: "Publications",
           description: "",
