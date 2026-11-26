@@ -708,14 +708,16 @@ html[data-theme="dark"] .rs {
 
 // Paper cards -----------------------------------------------------------------
 
-// Paper details span the card; threat / method / result sit beside the figure, top-aligned.
+// Paper details span the card; the figure sits beside threat / method / result and is
+// centered on them alone (the links get their own row below).
 .rs-card {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
   grid-template-areas:
     "head head"
-    "body figure"
+    "points figure"
+    "links ."
     "press press";
   gap: 1.5em 2.25em;
   align-items: start;
@@ -860,8 +862,9 @@ html[data-theme="dark"] .rs {
   border-bottom: 1px dashed var(--rs-line);
 }
 
+// Lets the points and links be placed in the card grid separately.
 .rs-card-body {
-  grid-area: body;
+  display: contents;
 }
 
 .rs-hook {
@@ -875,6 +878,8 @@ html[data-theme="dark"] .rs {
 }
 
 .rs-points {
+  grid-area: points;
+  align-self: center; // stays centered on the figure if the figure is ever taller
   display: grid;
   gap: 0.6em;
   margin: 0;
@@ -902,10 +907,11 @@ html[data-theme="dark"] .rs {
 }
 
 .rs-links {
+  grid-area: links;
   display: flex;
   flex-wrap: wrap;
   gap: 0.45em;
-  margin-top: 1.2em;
+  margin-top: -0.3em; // the row gap is 1.5em; keep the original 1.2em spacing
 }
 
 .rs-link {
@@ -930,8 +936,8 @@ html[data-theme="dark"] .rs {
   }
 }
 
-// Centered beside the text and capped so a figure (with its caption) is never taller
-// than the shortest text column (~17.6em): tall figures shrink, wide ones keep full width.
+// Centered on threat / method / result and capped at the shortest of those blocks
+// (~14.3em), so tall figures shrink while wide ones keep their full width.
 .rs-figure {
   grid-area: figure;
   align-self: center;
@@ -942,7 +948,7 @@ html[data-theme="dark"] .rs {
     width: auto;
     max-width: 100%;
     height: auto;
-    max-height: 16em;
+    max-height: 14.25em;
     margin: 0 auto;
     padding: 0.75em;
     border: 1px solid var(--rs-line);
@@ -951,8 +957,14 @@ html[data-theme="dark"] .rs {
     box-shadow: 0 6px 18px rgba(15, 23, 42, 0.06);
   }
 
+  // Hangs below the image without counting toward its height, so the image itself is what
+  // gets centered on the text.
   figcaption {
-    margin-top: 0.6em;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    padding-top: 0.6em;
     color: var(--rs-muted) !important;
     font-size: 0.74em;
     text-align: center;
@@ -1162,14 +1174,26 @@ body:has(.rs) .medium-zoom-image--opened {
     grid-template-areas:
       "head"
       "figure"
-      "body"
+      "points"
+      "links"
       "press";
     gap: 1.3em;
     padding: 1.4em 1.25em 1.4em 1.5em;
   }
 
-  .rs-figure img {
-    max-height: none; // stacked above the text, so it can use the full width
+  .rs-links {
+    margin-top: 0;
+  }
+
+  // Stacked above the text: full width, caption back in the flow.
+  .rs-figure {
+    img {
+      max-height: none;
+    }
+
+    figcaption {
+      position: static;
+    }
   }
 
   .rs-points > div {
