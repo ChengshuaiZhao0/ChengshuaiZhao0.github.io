@@ -3,8 +3,6 @@
  ******************************************************************************/
 
 .rs {
-  // Wider than the site container on large screens; type scales with the viewport.
-  --rs-w: max(100%, min(1320px, 100vw - 64px));
   --rs-data: #0d9488;
   --rs-data-soft: rgba(13, 148, 136, 0.1);
   --rs-model: #7c3aed;
@@ -20,10 +18,8 @@
   --rs-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.06), 0 22px 48px rgba(15, 23, 42, 0.13);
 
   position: relative;
-  width: var(--rs-w);
-  margin: 0.5rem 0 4rem calc((100% - var(--rs-w)) / 2);
+  margin: 0.5rem 0 4rem;
   color: var(--global-text-color);
-  font-size: clamp(15px, 0.4vw + 11px, 18px);
   line-height: 1.6;
 
   // The theme colors every p/div/span directly; let them inherit inside this page instead.
@@ -927,6 +923,14 @@ html[data-theme="dark"] .rs {
     font-size: 0.74em;
     text-align: center;
   }
+}
+
+// medium-zoom shows a copy of the image outside .rs; give it the same white backing,
+// so figures with transparent backgrounds stay readable in dark mode.
+body:has(.rs) .medium-zoom-image--opened {
+  padding: 0.75em;
+  border-radius: 0.8em;
+  background: #fff;
 }
 
 .rs-press {

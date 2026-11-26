@@ -1145,6 +1145,13 @@ nav[data-toggle="toc"] {
   z-index: 999;
 }
 
+// zoom.js and theme.js build the overlay color as --global-bg-color + "ee", which is invalid
+// when Sass compresses the light theme's #ffffff to #fff. Set the overlay color here instead.
+.medium-zoom-overlay {
+  background: var(--global-bg-color) !important;
+  background: color-mix(in srgb, var(--global-bg-color) 93%, transparent) !important;
+}
+
 #toc-sidebar {
   z-index: 1;
 }
