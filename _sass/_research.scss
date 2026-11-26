@@ -2,6 +2,14 @@
  * Research page (_pages/research.html)
  ******************************************************************************/
 
+@use "sass:math";
+
+// The page was designed 1320px wide with 18px text. Every size below is in em, so
+// scaling the base font keeps those proportions inside the site's content column.
+// (.container adds 15px padding on each side of max_width.)
+$rs-font: math.div(18px * ($max-content-width - 30px), 1320px);
+$rs-font-narrow: 15px; // below 992px the column is narrower and layouts stack instead
+
 .rs {
   --rs-data: #0d9488;
   --rs-data-soft: rgba(13, 148, 136, 0.1);
@@ -20,7 +28,12 @@
   position: relative;
   margin: 0.5rem 0 4rem;
   color: var(--global-text-color);
+  font-size: $rs-font-narrow;
   line-height: 1.6;
+
+  @media (min-width: 992px) {
+    font-size: $rs-font;
+  }
 
   // The theme colors every p/div/span directly; let them inherit inside this page instead.
   :where(p, h1, h2, h3, div, span, strong, em, b, li, dt, dd, figcaption) {
@@ -485,7 +498,6 @@ html[data-theme="dark"] .rs {
 }
 
 .rs-intro {
-  max-width: 48em;
   margin: 0;
   color: var(--rs-muted) !important;
   line-height: 1.75;
@@ -519,7 +531,7 @@ html[data-theme="dark"] .rs {
 
 .rs-flow {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 2.6em minmax(0, 1fr) 2.6em minmax(0, 1.3fr);
+  grid-template-columns: minmax(0, 1fr) 2.6em minmax(0, 1fr) 2.6em minmax(0, 1fr);
   margin-top: 2em;
 }
 
@@ -696,12 +708,17 @@ html[data-theme="dark"] .rs {
 
 // Paper cards -----------------------------------------------------------------
 
+// Paper details span the card; threat / method / result sit beside the figure, top-aligned.
 .rs-card {
   position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
-  gap: 2.25em;
-  align-items: center;
+  grid-template-areas:
+    "head head"
+    "body figure"
+    "press press";
+  gap: 1.5em 2.25em;
+  align-items: start;
   margin-top: 1.5em;
   padding: 2em 2em 2em 2.3em;
   border: 1px solid var(--rs-line);
@@ -837,8 +854,18 @@ html[data-theme="dark"] .rs {
   }
 }
 
+.rs-card-head {
+  grid-area: head;
+  padding-bottom: 1.5em;
+  border-bottom: 1px dashed var(--rs-line);
+}
+
+.rs-card-body {
+  grid-area: body;
+}
+
 .rs-hook {
-  margin: 1em 0;
+  margin: 1em 0 0;
   padding-left: 0.85em;
   border-left: 2px solid var(--rs-accent);
   font-family: Georgia, "Times New Roman", serif;
@@ -903,13 +930,20 @@ html[data-theme="dark"] .rs {
   }
 }
 
+// Centered beside the text and capped so a figure (with its caption) is never taller
+// than the shortest text column (~17.6em): tall figures shrink, wide ones keep full width.
 .rs-figure {
+  grid-area: figure;
+  align-self: center;
   margin: 0;
 
   img {
     display: block;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     height: auto;
+    max-height: 16em;
+    margin: 0 auto;
     padding: 0.75em;
     border: 1px solid var(--rs-line);
     border-radius: 0.8em;
@@ -931,10 +965,15 @@ body:has(.rs) .medium-zoom-image--opened {
   padding: 0.75em;
   border-radius: 0.8em;
   background: #fff;
+  font-size: $rs-font-narrow; // match the .rs base so the padding lines up with the original
+
+  @media (min-width: 992px) {
+    font-size: $rs-font;
+  }
 }
 
 .rs-press {
-  grid-column: 1 / -1;
+  grid-area: press;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -1120,12 +1159,17 @@ body:has(.rs) .medium-zoom-image--opened {
 
   .rs-card {
     grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "head"
+      "figure"
+      "body"
+      "press";
     gap: 1.3em;
     padding: 1.4em 1.25em 1.4em 1.5em;
   }
 
-  .rs-figure {
-    order: -1;
+  .rs-figure img {
+    max-height: none; // stacked above the text, so it can use the full width
   }
 
   .rs-points > div {

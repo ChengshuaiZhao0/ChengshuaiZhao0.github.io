@@ -17,23 +17,24 @@ nav_order: 3
 
     <div class="rs-hero-copy">
       <span class="rs-eyebrow"><i class="fa-solid fa-shield-halved"></i> Research · LLM Safety, Security &amp; Privacy</span>
-      <h1 class="rs-hero-title" id="rs-title">Safety and security across the <span class="rs-gradient">LLM lifecycle</span></h1>
+      <h1 class="rs-hero-title" id="rs-title">Safety and Security Across the <span class="rs-gradient">LLM Lifecycle</span></h1>
       <p class="rs-hero-sub">From the data models learn from, to the models themselves, to the systems they are deployed in.</p>
       <p class="rs-hero-lede">
         Large language models can be exploited at every stage of their lifecycle. My research characterizes these attack surfaces, including
-        unauthorized training on private data, capability extraction through APIs, and attacks on retrieval, multi-agent, and reasoning pipelines, and
-        develops safeguards designed to remain effective against adaptive adversaries while interfering minimally with benign use.
+        unauthorized training on private data, capability extraction through APIs, chain-of-thought reasoning that breaks down beyond the training
+        distribution, and attacks on retrieval and multi-agent pipelines, and develops safeguards designed to remain effective against adaptive
+        adversaries while interfering minimally with benign use.
       </p>
       <div class="rs-hero-actions">
         <a class="rs-btn rs-btn--layer rs-data" href="#data"><b>01</b> Data</a>
         <a class="rs-btn rs-btn--layer rs-model" href="#model"><b>02</b> Model</a>
-        <a class="rs-btn rs-btn--layer rs-deploy" href="#deployment"><b>03</b> Deployment</a>
+        <a class="rs-btn rs-btn--layer rs-deploy" href="#system"><b>03</b> System</a>
       </div>
     </div>
 
     <div class="rs-hero-visual">
       <svg class="rs-stack" viewBox="0 0 520 440" aria-labelledby="rs-stack-title">
-        <title id="rs-stack-title">The LLM lifecycle as three layers: data, model, and deployment</title>
+        <title id="rs-stack-title">The LLM lifecycle as three layers: data, model, and system</title>
         <defs>
           <linearGradient id="rs-beam-grad" gradientUnits="userSpaceOnUse" x1="0" y1="340" x2="0" y2="90">
             <stop offset="0" stop-color="#2dd4bf" />
@@ -138,12 +139,12 @@ nav_order: 3
             <line x1="345" y1="215" x2="368" y2="215" stroke="#a78bfa" stroke-opacity="0.6" />
             <text class="rs-stack-step" x="376" y="200" fill="#a78bfa">LAYER 02</text>
             <text class="rs-stack-name" x="376" y="220">Model</text>
-            <text class="rs-stack-sub" x="376" y="238">Weights · API · Distillation</text>
+            <text class="rs-stack-sub" x="376" y="238">API · Distillation · Reasoning</text>
           </g>
         </a>
 
-        <!-- Layer 03: deployment -->
-        <a href="#deployment" aria-label="Layer 03: Deployment">
+        <!-- Layer 03: system -->
+        <a href="#system" aria-label="Layer 03: System">
           <g class="rs-plate rs-plate--deploy">
             <polygon points="45,90 195,165 195,177 45,102" fill="#fb7185" fill-opacity="0.3" />
             <polygon points="195,165 345,90 345,102 195,177" fill="#fb7185" fill-opacity="0.16" />
@@ -179,8 +180,8 @@ nav_order: 3
             </g>
             <line x1="345" y1="90" x2="368" y2="90" stroke="#fb7185" stroke-opacity="0.6" />
             <text class="rs-stack-step" x="376" y="75" fill="#fb7185">LAYER 03</text>
-            <text class="rs-stack-name" x="376" y="95">Deployment</text>
-            <text class="rs-stack-sub" x="376" y="113">RAG · Agents · Reasoning</text>
+            <text class="rs-stack-name" x="376" y="95">System</text>
+            <text class="rs-stack-sub" x="376" y="113">RAG · Multi-agent</text>
           </g>
         </a>
 
@@ -193,7 +194,7 @@ nav_order: 3
 
     <ul class="rs-stats">
       <li><span class="rs-stat-num" data-count="6">6</span><span class="rs-stat-label">featured papers</span></li>
-      <li><span class="rs-stat-num" data-count="3">3</span><span class="rs-stat-label">lifecycle layers: data, model, deployment</span></li>
+      <li><span class="rs-stat-num" data-count="3">3</span><span class="rs-stat-label">lifecycle layers: data, model, system</span></li>
       <li><span class="rs-stat-num" data-count="2">2</span><span class="rs-stat-label">data modalities protected: vision-language and text</span></li>
       <li><span class="rs-stat-num" data-count="5">5</span><span class="rs-stat-label">media outlets covering the CoT study</span></li>
     </ul>
@@ -203,7 +204,7 @@ nav_order: 3
     <a href="#overview">Overview</a>
     <a class="rs-data" href="#data"><b>01</b> Data</a>
     <a class="rs-model" href="#model"><b>02</b> Model</a>
-    <a class="rs-deploy" href="#deployment"><b>03</b> Deployment</a>
+    <a class="rs-deploy" href="#system"><b>03</b> System</a>
     <a href="#outlook">Outlook</a>
   </nav>
 
@@ -249,16 +250,17 @@ nav_order: 3
             <a class="rs-layer-name" href="#model">Model</a>
           </div>
         </div>
-        <p class="rs-layer-q">Can a deployed model's capabilities be protected from extraction?</p>
+        <p class="rs-layer-q">Can a model's capabilities be protected from extraction, and can its reasoning be trusted?</p>
         <ul class="rs-layer-rows">
           <li>
-            <span class="rs-layer-label">Threat</span>
-            <span class="rs-layer-text">Capability extraction by distilling API responses into a student model</span>
-          </li>
-          <li>
-            <span class="rs-layer-label">Safeguard</span>
+            <span class="rs-layer-label">Capability extraction</span>
             <span class="rs-layer-text">Responses a student can fit without acquiring the underlying capability</span>
             <span class="rs-chips"><a class="rs-chip" href="#distilshield">DistilShield</a></span>
+          </li>
+          <li>
+            <span class="rs-layer-label">Reasoning</span>
+            <span class="rs-layer-text">Chain-of-thought that fails out of distribution</span>
+            <span class="rs-chips"><a class="rs-chip" href="#dataalchemy">DataAlchemy</a></span>
           </li>
         </ul>
       </article>
@@ -268,7 +270,7 @@ nav_order: 3
           <span class="rs-layer-icon"><i class="fa-solid fa-diagram-project"></i></span>
           <div>
             <span class="rs-layer-step">Layer 03</span>
-            <a class="rs-layer-name" href="#deployment">Deployment</a>
+            <a class="rs-layer-name" href="#system">System</a>
           </div>
         </div>
         <p class="rs-layer-q">Do LLM systems behave as intended in adversarial, open-ended settings?</p>
@@ -282,11 +284,6 @@ nav_order: 3
             <span class="rs-layer-label">Multi-agent systems</span>
             <span class="rs-layer-text">Harmful content propagating between agents</span>
             <span class="rs-chips"><a class="rs-chip" href="#wolf-within">The Wolf Within</a></span>
-          </li>
-          <li>
-            <span class="rs-layer-label">Reasoning</span>
-            <span class="rs-layer-text">Chain-of-thought that fails out of distribution</span>
-            <span class="rs-chips"><a class="rs-chip" href="#cot-mirage">CoT Mirage</a></span>
           </li>
         </ul>
       </article>
@@ -309,7 +306,7 @@ nav_order: 3
     </div>
 
     <article class="rs-card rs-reveal" id="mmguard">
-      <div>
+      <div class="rs-card-head">
         <div class="rs-meta">
           <span class="rs-venue">Preprint 2026</span>
           <span class="rs-tag"><i class="fa-solid fa-shield-halved"></i> Defense</span>
@@ -319,6 +316,8 @@ nav_order: 3
         <p class="rs-title">To See is Not to Learn: Protecting Multimodal Data from Unauthorized Fine-Tuning of Large Vision-Language Model</p>
         <p class="rs-authors"><strong>Chengshuai Zhao</strong>, Zhen Tan, Dawei Li, Zhiyuan Yu, Huan Liu</p>
         <p class="rs-hook">Can data owners protect image–text data before unauthorized fine-tuning happens, rather than after?</p>
+      </div>
+      <div class="rs-card-body">
         <dl class="rs-points">
           <div>
             <dt>Threat</dt>
@@ -354,12 +353,12 @@ nav_order: 3
           loading="lazy"
           data-zoomable
         />
-        <figcaption>Framework overview · click to zoom</figcaption>
+        <figcaption>Framework overview</figcaption>
       </figure>
     </article>
 
     <article class="rs-card rs-reveal" id="textcloak">
-      <div>
+      <div class="rs-card-head">
         <div class="rs-meta">
           <span class="rs-venue">Preprint 2026</span>
           <span class="rs-tag"><i class="fa-solid fa-shield-halved"></i> Defense</span>
@@ -371,6 +370,8 @@ nav_order: 3
         <p class="rs-hook">
           Can text remain natural and useful to readers while providing no benefit to an LLM fine-tuned on it without authorization?
         </p>
+      </div>
+      <div class="rs-card-body">
         <dl class="rs-points">
           <div>
             <dt>Threat</dt>
@@ -416,17 +417,21 @@ nav_order: 3
     <div class="rs-head rs-reveal">
       <span class="rs-index" aria-hidden="true">02</span>
       <div>
-        <p class="rs-kicker">Layer 02 · Model security</p>
-        <h2 class="rs-h2" id="rs-model-title">Protecting model capabilities from extraction</h2>
+        <p class="rs-kicker">Layer 02 · Model security &amp; reliability</p>
+        <h2 class="rs-h2" id="rs-model-title">Protecting model capabilities and testing model reasoning</h2>
         <p class="rs-intro">
           Frontier models are costly to build, yet every API response exposes part of their capability. Rather than making responses harder to fit, I
-          study how to let a student fit them while preventing the underlying capability from transferring, with minimal impact on benign use.
+          study how to let a student fit them while preventing the underlying capability from transferring, with minimal impact on benign use. The
+          reasoning a model displays also invites trust, so I test whether its chain of thought reflects capability that generalizes, using controlled
+          environments where the training data is fully known.
         </p>
       </div>
     </div>
 
+    <h3 class="rs-subhead"><i class="fa-solid fa-key"></i> Capability extraction · anti-distillation</h3>
+
     <article class="rs-card rs-reveal" id="distilshield">
-      <div>
+      <div class="rs-card-head">
         <div class="rs-meta">
           <span class="rs-venue">Under Review</span>
           <span class="rs-tag"><i class="fa-solid fa-shield-halved"></i> Defense</span>
@@ -436,6 +441,8 @@ nav_order: 3
         <p class="rs-title">Rethinking Anti-distillation of Large Language Models: An Unlearnable Examples Perspective</p>
         <p class="rs-authors"><strong>Chengshuai Zhao</strong>, Fan Zhang, Dawei Li, Bohan Jiang, Pingchuan Ma, Zhiyuan Yu, Zhen Tan, Huan Liu</p>
         <p class="rs-hook">Can a student fit a teacher's responses yet fail to acquire the capability behind them?</p>
+      </div>
+      <div class="rs-card-body">
         <dl class="rs-points">
           <div>
             <dt>Threat</dt>
@@ -471,147 +478,27 @@ nav_order: 3
           loading="lazy"
           data-zoomable
         />
-        <figcaption>Pipeline and Anti-GDPO reward design · click to zoom</figcaption>
+        <figcaption>Pipeline and Anti-GDPO reward design</figcaption>
       </figure>
     </article>
-  </section>
-
-  <section class="rs-section rs-deploy" id="deployment" data-rs-section aria-labelledby="rs-deploy-title">
-    <div class="rs-head rs-reveal">
-      <span class="rs-index" aria-hidden="true">03</span>
-      <div>
-        <p class="rs-kicker">Layer 03 · Deployment safety &amp; security</p>
-        <h2 class="rs-h2" id="rs-deploy-title">Stress-testing LLM systems in deployment</h2>
-        <p class="rs-intro">
-          Deployed LLMs operate inside larger systems: they retrieve from open knowledge bases, communicate with other agents, and present their
-          reasoning to users. Each interface is a potential attack surface or a source of misplaced trust. I characterize these failure modes through
-          realistic attacks and controlled evaluations.
-        </p>
-      </div>
-    </div>
-
-    <h3 class="rs-subhead"><i class="fa-solid fa-magnifying-glass"></i> Retrieval-augmented generation</h3>
-
-    <article class="rs-card rs-reveal" id="liar">
-      <div>
-        <div class="rs-meta">
-          <span class="rs-venue">EMNLP 2024</span>
-          <span class="rs-tag"><i class="fa-solid fa-bug"></i> Attack</span>
-          <span class="rs-tag rs-tag--plain">Knowledge poisoning</span>
-        </div>
-        <h3 class="rs-name">LIAR</h3>
-        <p class="rs-title">Glue Pizza and Eat Rocks: Exploiting Vulnerabilities in Retrieval-Augmented Generative Models</p>
-        <p class="rs-authors">
-          Zhen Tan*, <strong>Chengshuai Zhao*</strong>, Raha Moraffah, Yifan Li, Song Wang, Jundong Li, Tianlong Chen, Huan Liu
-        </p>
-        <p class="rs-hook">
-          Can an adversary with no knowledge of user queries, the knowledge base, or model parameters still steer what a RAG system generates?
-        </p>
-        <dl class="rs-points">
-          <div>
-            <dt>Threat</dt>
-            <dd>
-              RAG systems retrieve from openly writable sources such as web scrapes and user-contributed data pools, exposing a data-poisoning attack
-              surface.
-            </dd>
-          </div>
-          <div>
-            <dt>Method</dt>
-            <dd>
-              <em>LIAR</em> (expLoitative bI-level rAg tRaining) jointly optimizes adversarial content against the retriever and the generator through
-              bi-level training, using access to the retriever alone.
-            </dd>
-          </div>
-          <div>
-            <dt>Result</dt>
-            <dd>
-              Crafted uploads alone can change model behavior in this realistic setting, motivating integrity safeguards in the design and deployment
-              of RAG systems.
-            </dd>
-          </div>
-        </dl>
-        <div class="rs-links">
-          <a class="rs-link" href="https://aclanthology.org/2024.emnlp-main.96/"><i class="fa-solid fa-file-lines"></i> Paper</a>
-          <a class="rs-link" href="https://aclanthology.org/2024.emnlp-main.96.pdf"><i class="fa-solid fa-file-pdf"></i> PDF</a>
-        </div>
-      </div>
-      <figure class="rs-figure">
-        <img
-          src="{{ '/assets/img/publication_preview/LIAR.png' | relative_url }}"
-          alt="LIAR threat model: an adversary injects documents into a knowledge base that a RAG retriever and LLM generator consume"
-          loading="lazy"
-          data-zoomable
-        />
-        <figcaption>Threat model and bi-level training · click to zoom</figcaption>
-      </figure>
-    </article>
-
-    <h3 class="rs-subhead"><i class="fa-solid fa-people-group"></i> Multi-agent systems</h3>
-
-    <article class="rs-card rs-reveal" id="wolf-within">
-      <div>
-        <div class="rs-meta">
-          <span class="rs-venue">CVPR 2024 Workshop</span>
-          <span class="rs-tag"><i class="fa-solid fa-bug"></i> Attack</span>
-          <span class="rs-tag rs-tag--plain">Multi-agent MLLMs</span>
-        </div>
-        <h3 class="rs-name">The Wolf Within</h3>
-        <p class="rs-title">Covert Injection of Malice into MLLM Societies via an MLLM Operative</p>
-        <p class="rs-authors">Zhen Tan*, <strong>Chengshuai Zhao*</strong>, Raha Moraffah, Yifan Li, Yu Kong, Tianlong Chen, Huan Liu</p>
-        <p class="rs-hook">Can a single compromised agent induce harmful behavior throughout a society of multimodal agents?</p>
-        <dl class="rs-points">
-          <div>
-            <dt>Threat</dt>
-            <dd>Multimodal LLM agents increasingly collaborate in networks, exchanging prompts and images to complete complex tasks.</dd>
-          </div>
-          <div>
-            <dt>Method</dt>
-            <dd>
-              Manipulate one MLLM agent so that it generates prompts that, in turn, induce other agents to produce harmful content: an indirect,
-              covert propagation path rather than a direct jailbreak.
-            </dd>
-          </div>
-          <div>
-            <dt>Result</dt>
-            <dd>
-              The induced prompts transfer across agents, circulating dangerous instructions and misinformation through ordinary inter-agent
-              communication, a multi-agent failure mode that calls for dedicated detection and mitigation.
-            </dd>
-          </div>
-        </dl>
-        <div class="rs-links">
-          <a class="rs-link" href="https://arxiv.org/abs/2402.14859"><i class="ai ai-arxiv"></i> arXiv</a>
-          <a class="rs-link" href="https://arxiv.org/pdf/2402.14859"><i class="fa-solid fa-file-pdf"></i> PDF</a>
-          <a class="rs-link" href="https://github.com/ChengshuaiZhao0/The-Wolf-Within"><i class="fa-brands fa-github"></i> Code</a>
-        </div>
-      </div>
-      <figure class="rs-figure">
-        <img
-          src="{{ '/assets/img/publication_preview/The-Wolf-Within.png' | relative_url }}"
-          alt="The Wolf Within: a manipulated MLLM agent infects other agents in an MLLM society"
-          loading="lazy"
-          data-zoomable
-        />
-        <figcaption>Malice propagating through an agent society · click to zoom</figcaption>
-      </figure>
-    </article>
-
     <h3 class="rs-subhead"><i class="fa-solid fa-brain"></i> Reasoning · chain-of-thought faithfulness</h3>
 
-    <article class="rs-card rs-card--featured rs-reveal" id="cot-mirage">
-      <div>
+    <article class="rs-card rs-reveal" id="dataalchemy">
+      <div class="rs-card-head">
         <div class="rs-meta">
-          <span class="rs-venue">ACL 2026 Findings</span>
+          <span class="rs-venue">ACL 2026</span>
           <span class="rs-tag"><i class="fa-solid fa-flask"></i> Evaluation</span>
           <span class="rs-tag rs-tag--plain">Chain-of-thought</span>
           <span class="rs-tag rs-tag--plain"><i class="fa-solid fa-newspaper"></i> In the press</span>
         </div>
-        <h3 class="rs-name">CoT Mirage</h3>
+        <h3 class="rs-name">DataAlchemy</h3>
         <p class="rs-title">Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens</p>
         <p class="rs-authors">
           <strong>Chengshuai Zhao</strong>, Zhen Tan, Pingchuan Ma, Dawei Li, Bohan Jiang, Yancheng Wang, Yingzhen Yang, Huan Liu
         </p>
         <p class="rs-hook">Does a model's chain of thought reflect reasoning that generalizes, or patterns that only hold in distribution?</p>
+      </div>
+      <div class="rs-card-body">
         <dl class="rs-points">
           <div>
             <dt>Setting</dt>
@@ -650,7 +537,7 @@ nav_order: 3
           loading="lazy"
           data-zoomable
         />
-        <figcaption>The DataAlchemy environment · click to zoom</figcaption>
+        <figcaption>The DataAlchemy environment</figcaption>
       </figure>
       <div class="rs-press">
         <span class="rs-press-label">Covered by</span>
@@ -663,6 +550,130 @@ nav_order: 3
         >
         <a href="https://the-decoder.com/yet-another-study-doubts-that-llm-reasoning-shows-true-logic-over-pattern-imitation/">The Decoder</a>
       </div>
+    </article>
+  </section>
+
+  <section class="rs-section rs-deploy" id="system" data-rs-section aria-labelledby="rs-deploy-title">
+    <div class="rs-head rs-reveal">
+      <span class="rs-index" aria-hidden="true">03</span>
+      <div>
+        <p class="rs-kicker">Layer 03 · System safety &amp; security</p>
+        <h2 class="rs-h2" id="rs-deploy-title">Stress-testing LLM systems in deployment</h2>
+        <p class="rs-intro">
+          Deployed LLMs operate inside larger systems: they retrieve from open knowledge bases and communicate with other agents. Each interface is a
+          potential attack surface. I characterize these failure modes through realistic attacks.
+        </p>
+      </div>
+    </div>
+
+    <h3 class="rs-subhead"><i class="fa-solid fa-magnifying-glass"></i> Retrieval-augmented generation</h3>
+
+    <article class="rs-card rs-reveal" id="liar">
+      <div class="rs-card-head">
+        <div class="rs-meta">
+          <span class="rs-venue">EMNLP 2024</span>
+          <span class="rs-tag"><i class="fa-solid fa-bug"></i> Attack</span>
+          <span class="rs-tag rs-tag--plain">Knowledge poisoning</span>
+        </div>
+        <h3 class="rs-name">LIAR</h3>
+        <p class="rs-title">Glue Pizza and Eat Rocks: Exploiting Vulnerabilities in Retrieval-Augmented Generative Models</p>
+        <p class="rs-authors">
+          Zhen Tan*, <strong>Chengshuai Zhao*</strong>, Raha Moraffah, Yifan Li, Song Wang, Jundong Li, Tianlong Chen, Huan Liu
+        </p>
+        <p class="rs-hook">
+          Can an adversary with no knowledge of user queries, the knowledge base, or model parameters still steer what a RAG system generates?
+        </p>
+      </div>
+      <div class="rs-card-body">
+        <dl class="rs-points">
+          <div>
+            <dt>Threat</dt>
+            <dd>
+              RAG systems retrieve from openly writable sources such as web scrapes and user-contributed data pools, exposing a data-poisoning attack
+              surface.
+            </dd>
+          </div>
+          <div>
+            <dt>Method</dt>
+            <dd>
+              <em>LIAR</em> (expLoitative bI-level rAg tRaining) jointly optimizes adversarial content against the retriever and the generator through
+              bi-level training, using access to the retriever alone.
+            </dd>
+          </div>
+          <div>
+            <dt>Result</dt>
+            <dd>
+              Crafted uploads alone can change model behavior in this realistic setting, motivating integrity safeguards in the design and deployment
+              of RAG systems.
+            </dd>
+          </div>
+        </dl>
+        <div class="rs-links">
+          <a class="rs-link" href="https://aclanthology.org/2024.emnlp-main.96/"><i class="fa-solid fa-file-lines"></i> Paper</a>
+          <a class="rs-link" href="https://aclanthology.org/2024.emnlp-main.96.pdf"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+        </div>
+      </div>
+      <figure class="rs-figure">
+        <img
+          src="{{ '/assets/img/publication_preview/LIAR.png' | relative_url }}"
+          alt="LIAR threat model: an adversary injects documents into a knowledge base that a RAG retriever and LLM generator consume"
+          loading="lazy"
+          data-zoomable
+        />
+        <figcaption>Threat model and bi-level training</figcaption>
+      </figure>
+    </article>
+
+    <h3 class="rs-subhead"><i class="fa-solid fa-people-group"></i> Multi-agent systems</h3>
+
+    <article class="rs-card rs-reveal" id="wolf-within">
+      <div class="rs-card-head">
+        <div class="rs-meta">
+          <span class="rs-venue">CVPR 2024 Workshop</span>
+          <span class="rs-tag"><i class="fa-solid fa-bug"></i> Attack</span>
+          <span class="rs-tag rs-tag--plain">Multi-agent MLLMs</span>
+        </div>
+        <h3 class="rs-name">The Wolf Within</h3>
+        <p class="rs-title">Covert Injection of Malice into MLLM Societies via an MLLM Operative</p>
+        <p class="rs-authors">Zhen Tan*, <strong>Chengshuai Zhao*</strong>, Raha Moraffah, Yifan Li, Yu Kong, Tianlong Chen, Huan Liu</p>
+        <p class="rs-hook">Can a single compromised agent induce harmful behavior throughout a society of multimodal agents?</p>
+      </div>
+      <div class="rs-card-body">
+        <dl class="rs-points">
+          <div>
+            <dt>Threat</dt>
+            <dd>Multimodal LLM agents increasingly collaborate in networks, exchanging prompts and images to complete complex tasks.</dd>
+          </div>
+          <div>
+            <dt>Method</dt>
+            <dd>
+              Manipulate one MLLM agent so that it generates prompts that, in turn, induce other agents to produce harmful content: an indirect,
+              covert propagation path rather than a direct jailbreak.
+            </dd>
+          </div>
+          <div>
+            <dt>Result</dt>
+            <dd>
+              The induced prompts transfer across agents, circulating dangerous instructions and misinformation through ordinary inter-agent
+              communication, a multi-agent failure mode that calls for dedicated detection and mitigation.
+            </dd>
+          </div>
+        </dl>
+        <div class="rs-links">
+          <a class="rs-link" href="https://arxiv.org/abs/2402.14859"><i class="ai ai-arxiv"></i> arXiv</a>
+          <a class="rs-link" href="https://arxiv.org/pdf/2402.14859"><i class="fa-solid fa-file-pdf"></i> PDF</a>
+          <a class="rs-link" href="https://github.com/ChengshuaiZhao0/The-Wolf-Within"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </div>
+      <figure class="rs-figure">
+        <img
+          src="{{ '/assets/img/publication_preview/The-Wolf-Within.png' | relative_url }}"
+          alt="The Wolf Within: a manipulated MLLM agent infects other agents in an MLLM society"
+          loading="lazy"
+          data-zoomable
+        />
+        <figcaption>Malice propagating through an agent society</figcaption>
+      </figure>
     </article>
   </section>
 
@@ -681,8 +692,8 @@ nav_order: 3
           <p>Can we prevent capability extraction without degrading the experience of legitimate users?</p>
         </li>
         <li class="rs-deploy">
-          <span class="rs-kicker">Layer 03 · Deployment</span>
-          <p>How can we detect and contain failures that propagate across retrieval, agents, and reasoning before they compound?</p>
+          <span class="rs-kicker">Layer 03 · System</span>
+          <p>How can we detect and contain failures that propagate across retrieval and agents before they compound?</p>
         </li>
       </ol>
       <div class="rs-outlook-foot">
